@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flash on 7bits</title>
+    <link>https://7bits.fr/platforms/flash/</link>
+    <description>Recent content in Flash on 7bits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 24 Jul 2013 19:06:11 +0000</lastBuildDate><atom:link href="https://7bits.fr/platforms/flash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tower of Heaven [Flash]</title>
+      <link>https://7bits.fr/2013/07/tower-of-heaven-flash/</link>
+      <pubDate>Wed, 24 Jul 2013 19:06:11 +0000</pubDate>
+      
+      <guid>https://7bits.fr/2013/07/tower-of-heaven-flash/</guid>
+      <description>Vous avez trente minutes à tuer ? Que diriez-vous de vous faire un platformer rétro de type die and retry où l&amp;rsquo;avancée des niveaux serait rendue plus pénible par une divinité changeant les règles de jeu ? Bien, c&amp;rsquo;est par ici que ça se passe.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>PewPew [Android] - 7bits</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="PewPew [Android]" />
+<meta property="og:description" content="PewPew, il fallait oser donner un titre aussi original que pan-pan t&rsquo;es mort à son jeu. Le titre empruntant beaucoup à Geometry Wars essaie de se faire une place au sein des jeux arcade/shoot them up gratuits sur Android.
+ Pewpew est un shoot them up vu de haut." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://7bits.fr/2013/07/pewpew-android/" /><meta property="og:image" content="https://7bits.fr/img/logo.svg"/><meta property="article:section" content="articles" />
+<meta property="article:published_time" content="2013-07-17T16:20:25&#43;00:00" />
+<meta property="article:modified_time" content="2013-07-17T16:20:25&#43;00:00" />
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="7bits" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo.svg">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">7bits</div>
+					
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				
+				<span class="menu__text">Accueil</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/dev">
+				
+				<span class="menu__text">Développement</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms">
+				
+				<span class="menu__text">Supports</span>
+				
+			</a>
+		</li>
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/categories">
+				
+				<span class="menu__text">Genres</span>
+				<label class="drop-icon" for="Genres">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Genres">
+			<ul class="submenu__list">
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/android">
+				
+				<span class="menu__text">Android</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/atari">
+				
+				<span class="menu__text">Atari</span>
+				<label class="drop-icon" for="Atari">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Atari">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/atari/jaguar">
+						
+						<span class="menu__text">Jaguar</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/flash">
+				
+				<span class="menu__text">Flash</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/microsoft">
+				
+				<span class="menu__text">Microsoft</span>
+				<label class="drop-icon" for="Microsoft">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Microsoft">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/microsoft/xbox-360">
+						
+						<span class="menu__text">XBOX 360</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/nec">
+				
+				<span class="menu__text">NEC</span>
+				<label class="drop-icon" for="NEC">▾</label>
+				
+			</a>
+			<input type="checkbox" id="NEC">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nec/pc-98">
+						
+						<span class="menu__text">PC-98</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/nintendo">
+				
+				<span class="menu__text">Nintendo</span>
+				<label class="drop-icon" for="Nintendo">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Nintendo">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nintendo/switch">
+						
+						<span class="menu__text">Switch</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nintendo/wii">
+						
+						<span class="menu__text">Wii</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/pc">
+				
+				<span class="menu__text">PC</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/philips">
+				
+				<span class="menu__text">Philips</span>
+				<label class="drop-icon" for="Philips">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Philips">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/philips/cd-i">
+						
+						<span class="menu__text">CD-i</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/sega">
+				
+				<span class="menu__text">Sega</span>
+				<label class="drop-icon" for="Sega">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Sega">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sega/dreamcast">
+						
+						<span class="menu__text">Dreamcast</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/sony">
+				
+				<span class="menu__text">Sony</span>
+				<label class="drop-icon" for="Sony">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Sony">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps1">
+						
+						<span class="menu__text">PS1</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps2">
+						
+						<span class="menu__text">PS2</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps3">
+						
+						<span class="menu__text">PS3</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps4">
+						
+						<span class="menu__text">PS4</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps-vr">
+						
+						<span class="menu__text">PS VR</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/psp">
+						
+						<span class="menu__text">PSP</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/vita">
+						
+						<span class="menu__text">Vita</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+			</ul>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pages/edito/">
+				
+				<span class="menu__text">Édito</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">PewPew [Android]</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2013-07-17T16:20:25Z">17/07/2013</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/shoot-em-up-classique/" rel="category">Shoot &#39;em up classique</a>
+	</span>
+</div><div class="meta__item-tags meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/non-relu/" rel="tag">Non relu</a>
+	</span>
+</div></div>
+		</header>
+			
+			
+			<div class="content post__content clearfix">
+			<p>PewPew, il fallait oser donner un titre aussi original que pan-pan t&rsquo;es mort à son jeu. Le titre empruntant beaucoup à Geometry Wars essaie de se faire une place au sein des jeux arcade/shoot them up gratuits sur Android.</p>
+<figure><img src="attachment185-1.jpg"/>
+</figure>
+
+<p>Pewpew est un shoot them up vu de haut. A travers 5 modes de jeu, le joueur contrôle un vaisseau dans une arène et doit essayer de survivre aux vagues ennemis tout en essayant de faire un maximum de points.</p>
+<p>Pour les contrôles : deux sticks sont reparties sur les deux cotés de l&rsquo;écran et permettent au joueur de contrôler à la fois le vaisseau mais aussi la direction de son tir, certains bonus apparaissent parfois pour augmenter le niveau du bouclier (point de vie) ou vous donnant un bonus de tir multicolore assez impressionnant, leurs apparitions se matérialise assez bien par une flèche à suivre apparaissant autour du vaisseau.
+A noter que le jeu possède un des meilleurs systèmes de pause qu&rsquo;il m&rsquo;ait été donné de voir, la &ldquo;pause automatique&rdquo; permet de mettre en pause le jeu dès que vos doigt décolle de l&rsquo;écran, vraiment instinctif et bien pensé. Voilà, vous savez tout, passons maintenant en revue chaque mode :</p>
+<p><figure><img src="attachment186.png"/>
+</figure>
+
+<figure><img src="attachment187.png"/>
+</figure>
+</p>
+<p><em>Image droite : Ces gros carrées explose en libérant une pluie de projectiles, qui varie en nombre selon leur couleur. Détruire ces ennemis en les touchant vous fera perdre plusieurs points de vie</em></p>
+<p><strong>Mode Pandemonium</strong> : Le mode de jeu entraînant les sessions de jeu les plus longues, le jeu vous octroi même des vies en sus des boucliers qui s’incrémentent à chaque fois que vous arriverez à hauteur des 10 000 points.
+Détruisez tous les ennemis que vous voyez et abritez vous derrière les murs au centre de l&rsquo;écran pour échapper aux projectiles des carrés détruit, parfois le jeu vous incitera à vous dépêcher de nettoyer l&rsquo;écran en affichant un joli message &ldquo;Hurry up&rdquo; puis affichera quelques secondes plus tard un &ldquo;3, 2, 1 GO !&rdquo;, message prononçant l&rsquo;arrivé d&rsquo;une horde d&rsquo;ennemis arrivant sans cesse des 4 cotés de l&rsquo;écran</p>
+<p><figure><img src="attachment188.png"/>
+</figure>
+
+<figure><img src="attachment189.png"/>
+</figure>
+</p>
+<p><em>Image gauche : Début de la partie&hellip;
+Image droite : &hellip;Peu de temps avant votre mort</em></p>
+<p><strong>Mode Dodge this</strong> (Évite ça) : Un mode assez spécial puisqu&rsquo;il y est impossible de tirer.
+Dans une arène rectangulaire le joueur doit sans cesse récolter un bonus apparaissant aléatoirement dans l&rsquo;arène. Plus le joueur se dépêche plus grand est le bonus de points qu&rsquo;il gagne, le hic c&rsquo;est qu&rsquo;à chaque fois qu&rsquo;un bonus est ramassé un (ou deux) ennemis apparaissent. Dans ces conditions la liberté de mouvement est vite réduite à néant et le joueur n&rsquo;a pas vraiment le temps de se la jouer en finesse avec le bonus de point qui se réduit à la vitesse de l&rsquo;éclair. A noté que les boucliers répondent présent ici aussi. Adapté aux sessions courtes</p>
+<p><figure><img src="attachment190.png"/>
+</figure>
+
+<figure><img src="attachment191.png"/>
+</figure>
+</p>
+<p><em>Les flèches rouges sont très difficile a détruire et donc à éviter, les flèches bleu au contour blanc sont par contre extrêmement frêle mais étant légion, leurs voisines : les flèches bleu tout court, sont par contre très rapide</em></p>
+<p><strong>Mode Assault</strong> : Ici le joueur est dans une arène de taille restreinte où les ennemis ne font jamais que traverser l&rsquo;écran (imaginer être sur deux autoroutes juxtaposés). Arrivant parfois sous forme de ligne et de colonne, il devient de plus en plus difficile de les éviter, des multiplicateurs de points sont donnés au joueur pour augmenter son score (et également l&rsquo;inciter à quitter momentanément le centre de l&rsquo;écran).
+Arrivé un certain point, le jeu réduira nettement le nombre d&rsquo;ennemis à l&rsquo;écran avant de tous vous les envoyer dans la figure en même temps, un bruit strident accompagnant cette phase.
+La difficulté augmentant exponentiellement, le jeu devient très difficile vers les 8 000 points alors même que votre multiplicateur de points poussé au maximum vous récompensera chaque bref moment de plus où vous survivrez. Adapté aux sessions courtes</p>
+<p><figure><img src="attachment192.png"/>
+</figure>
+
+<figure><img src="attachment193.png"/>
+</figure>
+</p>
+<p><strong>Mode Asteroids</strong> : Revêtant les couleurs et les ennemis du célèbre jeu éponyme, ce mode vous propose de survivre à travers différents rounds à des vagues d’astéroïdes à détruire en miettes. Ici les murs amènent directement de l&rsquo;autre coté de l&rsquo;écran, ce qui marche pour les ennemis, pour vous, mais aussi pour les projectiles : on peut donc crée des pluies de projectiles en tirant au hasard. Un mode assez fun</p>
+<p><figure><img src="attachment194.png"/>
+</figure>
+
+<figure><img src="attachment195.png"/>
+</figure>
+</p>
+<p><em>Image droite : Un dragon dont chaque extrémité se transforme en une autre couleur apparaît parfois</em></p>
+<p><strong>Mode Chromatic Conflict</strong> : Ici des spots de différentes couleurs charge votre vaisseau et vos projectiles d&rsquo;une couleur différente. Si un ennemi apparaît d&rsquo;une couleur rouge, bleu ou verte alors il ne sera sensible qu&rsquo;aux tirs de couleurs correspondante, si par contre il apparaît en cyan, magenta, jaune ou blanc alors il faudra le dégommer couleur par couleur. Si vous ne tirez pas sur un ennemi avec le tir adapté, l&rsquo;ennemi sera repoussé. Partant d&rsquo;une bonne idée ce mode est pourtant un peu barbant à la longue</p>
+<p><figure><img src="attachment196.png"/>
+</figure>
+
+<figure><img src="attachment197.png"/>
+</figure>
+</p>
+<p>Le jeu est principalement axé sur le scoring avec classement en ligne et replay à télécharger, il possède, néanmoins, une forme de progression sous la forme de médailles à glaner dans chaque mode, en atteignant un certains nombre points.
+Petit défaut tout de même, c&rsquo;est que la difficulté d&rsquo;obtention de ces scores est très mal équilibré, si la médaille d&rsquo;or pour le mode &ldquo;Chromatic Conflict&rdquo; s&rsquo;obtient du premier coup, celles des modes &ldquo;Dodge This&rdquo; et &ldquo;Assault&rdquo; sont de véritables plaies à obtenir.
+L&rsquo;obtention de ces médailles permet également de débloquer deux autres vaisseaux, censé avoir plus de défense, je peux attester qu&rsquo;il n&rsquo;en est rien et qu&rsquo;ils constituent uniquement un changement de skin, toutefois appréciable</p>
+<p><figure><img src="attachment198.png"/>
+</figure>
+
+<figure><img src="attachment199.png"/>
+</figure>
+</p>
+<p>Graphiquement, le jeu est très coloré et se veut rétro : très peu de détail, des formes vectoriel simple&hellip; L&rsquo;usage de la 3D permet de joli effet 3D lors de l&rsquo;impact des tirs ou l&rsquo;explosion des ennemis et on peut l&rsquo;utiliser au mieux lors des replay avec une caméra totalement libre.
+Les bruitages se suffissent à eux même et <a href="http://www.youtube.com/watch?v=suyMoZgsJow">la musique</a> bien que de bonne facture et dans le ton a le défaut de n&rsquo;être présente qu&rsquo;en unique exemplaire, ceci la rendant EXTRÊMEMENT répétitif</p>
+<p><figure><img src="attachment200.png"/>
+</figure>
+
+<figure><img src="attachment201.png"/>
+</figure>
+</p>
+<p>Concernant la durée de vie comptez cinq à dix heures pour obtenir toutes les médailles, un peu plus pour obtenir des scores décent dans chaque modes et beaucoup beaucoup plus de temps si vous voulez figurer dans les classements online</p>
+<p><figure><img src="attachment202.png"/>
+</figure>
+
+<figure><img src="attachment203.png"/>
+</figure>
+</p>
+<p>PewPew est donc un jeu agréable. Disposant d&rsquo;une très bonne esthétique et d&rsquo;un gameplay simple et addictif se renouvelant dans les différents modes de jeu, le jeu distraira efficacement, et gratuitement, les mordus de scoring que ce soit au cours de sessions longues ou courtes</p>
+<p>Développeur : Jean-François Geyelin
+Année de sortie : 2011
+Article publié originellement sur Gamekult le 17/07/2013</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/non-relu/" rel="tag">Non relu</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="7bits avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">À propos 7bits</span>
+	</div>
+	<div class="authorbox__description">
+		Blabla.
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/2013/07/danmaku-death-android/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Précédent</span>
+			<p class="pager__title">Danmaku Death [Android]</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/2013/07/pewpew-2-android/" rel="next">
+			<span class="pager__subtitle">Suivant&thinsp;»</span>
+			<p class="pager__title">PewPew 2 [Android]</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="Rechercher…" value="" name="q" aria-label="Rechercher…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://7bits.fr/" />
+	</form>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Flux RSS" rel="noopener noreferrer" href="/articles/index.xml" target="_blank">
+					<svg class="widget-social__link-icon icon" width="24" height="24" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM112 416c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm157.533 0h-34.335c-6.011 0-11.051-4.636-11.442-10.634-5.214-80.05-69.243-143.92-149.123-149.123-5.997-.39-10.633-5.431-10.633-11.441v-34.335c0-6.535 5.468-11.777 11.994-11.425 110.546 5.974 198.997 94.536 204.964 204.964.352 6.526-4.89 11.994-11.425 11.994zm103.027 0h-34.334c-6.161 0-11.175-4.882-11.427-11.038-5.598-136.535-115.204-246.161-251.76-251.76C68.882 152.949 64 147.935 64 141.774V107.44c0-6.454 5.338-11.664 11.787-11.432 167.83 6.025 302.21 141.191 308.205 308.205.232 6.449-4.978 11.787-11.432 11.787z"></path></svg>
+				<span>Flux RSS</span>
+			</a>
+		</div>
+		
+	</div>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Articles récents</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2021/06/senran-kagura-peach-ball-switch/">Senran Kagura Peach Ball [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-06-27T00:00:00Z">27/06/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2021/01/super-smash-bros.-ultimate-switch/">Super Smash Bros. Ultimate [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-01-19T21:04:14Z">19/01/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/10/rayman-origins-pc/">Rayman Origins [PC]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-10-11T15:17:17Z">11/10/2020</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/09/mario-kart-8-deluxe-switch/">Mario Kart 8 Deluxe [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-09-25T17:24:33Z">25/09/2020</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/08/sayonara-wild-hearts-switch/">Sayonara Wild Hearts [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-08-30T13:40:45Z">30/08/2020</time></div></span>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-platforms widget">
+	<h4 class="widget__title">Plates-formes</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/android/">Android</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/atari/jaguar/">Atari/Jaguar</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/flash/">Flash</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/microsoft/xbox-360/">Microsoft/XBOX 360</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/3ds/">Nintendo/3DS</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gb/">Nintendo/GB</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gba/">Nintendo/GBA</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gbc/">Nintendo/GBC</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/nds/">Nintendo/NDS</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/nes/">Nintendo/NES</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/snes/">Nintendo/SNES</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/switch/">Nintendo/Switch</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wii/">Nintendo/Wii</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wii-u/">Nintendo/Wii U</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wiiware/">Nintendo/Wiiware</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/pc/">PC</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/pc-98/">PC-98</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/philips/cd-i/">Philips/CD-i</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sega/dreamcast/">Sega/Dreamcast</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps-vr/">Sony/PS VR</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps1/">Sony/PS1</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps2/">Sony/PS2</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps3/">Sony/PS3</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps4/">Sony/PS4</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/psp/">Sony/PSP</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/vita/">Sony/Vita</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Catégories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action/">Action</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action-aventure/">Action-aventure</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action-rpg/">Action-RPG</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/arcade/">Arcade</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/aventure/">Aventure</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/beatem-all/">Beat&#39;em all</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/course-arcade/">Course arcade</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/danmaku/">Danmaku</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/dessin-anime-interactif/">Dessin animé interactif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/developpement/">Développement</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/die-and-retry/">Die and retry</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/film-interactif/">Film interactif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/flipper/">Flipper</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/fps/">FPS</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/infiltration/">Infiltration</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ludo-educatif/">Ludo-éducatif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ovni/">OVNI</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/plates-formes-2d/">Plates-formes 2D</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/plates-formes-3d/">Plates-formes 3D</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/pointn-click/">Point&#39;n click</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/puzzle-game/">Puzzle game</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rail-shooter/">Rail shooter</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/reflexion/">Réflexion</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rpg/">RPG</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rpg-au-tour-par-tour/">RPG au tour par tour</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/run-and-gun/">Run and gun</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rythme/">Rythme</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/shoot-em-up-classique/">Shoot &#39;em up classique</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/survival-horror/">Survival horror</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/tps/">TPS</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/versus-fighting/">Versus fighting</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/visual-novel/">Visual novel</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/vr/">VR</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Mots-clefs</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/non-relu/" title="Non relu">Non relu (56)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/relu/" title="Relu">Relu (63)</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 7bits.
+			<span class="footer__copyright-credits">Produit par <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> et le thème <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a>.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/regsw.js"></script><script src="/js/dsqs.js"></script></body>
+</html>

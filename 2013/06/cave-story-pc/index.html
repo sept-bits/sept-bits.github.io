@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cave Story [PC] - 7bits</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Cave Story [PC]" />
+<meta property="og:description" content="Cave Story est l&rsquo;un des premiers jeux indépendants qui a vraiment su se faire connaître. Il a été créé par une seule personne, Pixel, un passionné de jeux rétro, qui a su réunir les meilleurs éléments de certains de ces jeux (Metroid, Metal Slug&hellip;) dans Cave Story." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://7bits.fr/2013/06/cave-story-pc/" /><meta property="og:image" content="https://7bits.fr/2013/06/cave-story-pc/Cave-Story-Cover.jpg"/><meta property="article:section" content="articles" />
+<meta property="article:published_time" content="2013-06-12T04:01:19&#43;00:00" />
+<meta property="article:modified_time" content="2013-06-12T04:01:19&#43;00:00" />
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="7bits" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo.svg">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">7bits</div>
+					
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				
+				<span class="menu__text">Accueil</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/dev">
+				
+				<span class="menu__text">Développement</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms">
+				
+				<span class="menu__text">Supports</span>
+				
+			</a>
+		</li>
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/categories">
+				
+				<span class="menu__text">Genres</span>
+				<label class="drop-icon" for="Genres">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Genres">
+			<ul class="submenu__list">
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/android">
+				
+				<span class="menu__text">Android</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/atari">
+				
+				<span class="menu__text">Atari</span>
+				<label class="drop-icon" for="Atari">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Atari">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/atari/jaguar">
+						
+						<span class="menu__text">Jaguar</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/flash">
+				
+				<span class="menu__text">Flash</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/microsoft">
+				
+				<span class="menu__text">Microsoft</span>
+				<label class="drop-icon" for="Microsoft">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Microsoft">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/microsoft/xbox-360">
+						
+						<span class="menu__text">XBOX 360</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/nec">
+				
+				<span class="menu__text">NEC</span>
+				<label class="drop-icon" for="NEC">▾</label>
+				
+			</a>
+			<input type="checkbox" id="NEC">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nec/pc-98">
+						
+						<span class="menu__text">PC-98</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/nintendo">
+				
+				<span class="menu__text">Nintendo</span>
+				<label class="drop-icon" for="Nintendo">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Nintendo">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nintendo/switch">
+						
+						<span class="menu__text">Switch</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nintendo/wii">
+						
+						<span class="menu__text">Wii</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/pc">
+				
+				<span class="menu__text">PC</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/philips">
+				
+				<span class="menu__text">Philips</span>
+				<label class="drop-icon" for="Philips">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Philips">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/philips/cd-i">
+						
+						<span class="menu__text">CD-i</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/sega">
+				
+				<span class="menu__text">Sega</span>
+				<label class="drop-icon" for="Sega">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Sega">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sega/dreamcast">
+						
+						<span class="menu__text">Dreamcast</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/sony">
+				
+				<span class="menu__text">Sony</span>
+				<label class="drop-icon" for="Sony">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Sony">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps1">
+						
+						<span class="menu__text">PS1</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps2">
+						
+						<span class="menu__text">PS2</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps3">
+						
+						<span class="menu__text">PS3</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps4">
+						
+						<span class="menu__text">PS4</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps-vr">
+						
+						<span class="menu__text">PS VR</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/psp">
+						
+						<span class="menu__text">PSP</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/vita">
+						
+						<span class="menu__text">Vita</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+			</ul>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pages/edito/">
+				
+				<span class="menu__text">Édito</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Cave Story [PC]</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2013-06-12T04:01:19Z">12/06/2013</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/action-aventure/" rel="category">Action-aventure</a>, <a class="meta__link" href="/categories/rpg/" rel="category">RPG</a>, <a class="meta__link" href="/categories/run-and-gun/" rel="category">Run and gun</a>
+	</span>
+</div><div class="meta__item-tags meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/relu/" rel="tag">Relu</a>
+	</span>
+</div></div>
+		</header>
+			
+			
+			<div class="content post__content clearfix">
+			<p><em>Cave Story</em> est l&rsquo;un des premiers jeux indépendants qui a vraiment su se faire connaître. Il a été créé par une seule personne, Pixel, un passionné de jeux rétro, qui a su réunir les meilleurs éléments de certains de ces jeux (<em>Metroid</em>, <em>Metal Slug</em>&hellip;) dans <em>Cave Story</em>. Avec la sortie dématérialisée du titre sur 3DS c&rsquo;est peut-être le moment de le (re)découvrir.</p>
+<figure><img src="Cave-Story-Cover.jpg"/>
+</figure>
+
+<p>Que dire de l&rsquo;histoire sans rien spoiler ? Eh bien vous vous réveillez dans une grotte, amnésique et découvrez à votre sortie un village peuplé de lapins anthropomorphes nommés mimigas. Ces créatures sont persécutées par un cube sur pattes, une sorcière et un scientifique avec une drôle de coiffe. Vous ne le savez pas encore mais votre implication dans le conflit aura des conséquences bien plus grandes que sur le village Mimiga&hellip;</p>
+<p><figure><img src="attachment137.jpg"
+         alt="attachment(137)"/>
+</figure>
+
+<figure><img src="attachment138.jpg"
+         alt="attachment(138)"/>
+</figure>
+</p>
+<p><em>À gauche : Les mimigas, pas tous mimis&hellip;
+À droite : Une fois sous l&rsquo;eau un décompte avec le temps d&rsquo;air restant s&rsquo;affiche</em></p>
+<p>Un scénario pas transcendant mais pour le moins efficace. L&rsquo;univers et le background des personnages sont relativement fouillés et bien qu&rsquo;à première vue la race de première importance soit des lapins tout mimis on ne tombe jamais dans le niais caricatural. La narration est soutenue avec très peu de temps morts. Cerise sur le gâteau le jeu possède plusieurs fins régies par vos choix et vos actions. En bref, un scénario qui se laisse jouer sans jamais étonner le joueur de par sa complexité.</p>
+<p><figure><img src="attachment139.jpg"
+         alt="attachment(139)"/>
+</figure>
+
+<figure><img src="attachment140.png"
+         alt="attachment(140)"/>
+</figure>
+</p>
+<p><em>À gauche : Que veux cette sorcière et l&rsquo;étrange cube qui l&rsquo;accompagne ?
+À droite : La mitrailleuse augmentée à son maximum permet de s&rsquo;envoler en visant le sol</em></p>
+<p>Le gameplay représente la partie la plus importante du jeu. Déjà vous n&rsquo;avez que des projectiles, vous démarrer le jeu avec un simple pistolet puis récupérez vite un lance-missiles (qui est la seule arme nécessitant des munitions), une mitrailleuse ou encore un lance boules de feu. Ce qui est intéressant c&rsquo;est qu&rsquo;un système d’expérience et de niveaux est intégré à chaque arme. Des sortes de triangles (expérience) laissés par les ennemis augmentent cette jauge qui peut aller jusqu&rsquo;au niveau 3, mais attention si les armes s&rsquo;upprgradent trèèès vite c&rsquo;est parce qu&rsquo;à chaque fois que vous perdez de la vie votre jauge d’expérience associée à votre arme diminue. Il faut donc faire très attention notamment contre les boss.
+À chaque niveau votre arme change un peu, prenons l&rsquo;exemple du lance-missiles qui de base n&rsquo;enverra qu&rsquo;un missile, au niveau 2 il en enverra un gros et au niveau trois il en enverra&hellip; trois, en général le niveau 3 permet à certaines armes de se comporter différemment alors que le deuxième est le plus souvent une amélioration du premier. Votre inventaire ne compte que six places mais dix armes sont au total dans le jeu, raison de plus pour recommencer celui-ci une deuxième (voir éventuellement une troisième fois) et changer radicalement la manière de jouer.</p>
+<p><figure><img src="attachment141.png"
+         alt="attachment(141)"/>
+</figure>
+
+<figure><img src="attachment142.png"
+         alt="attachment(142)"/>
+</figure>
+</p>
+<p><em>À gauche : Un GPS permet de vous y retrouver dans les niveaux
+À droite : L&rsquo;inventaire</em></p>
+<p>Maintenant au niveau des déplacements, les sauts que vous effectuez sont des sauts lunaires, vous effectuez de grands sauts et plus vous appuierez longtemps sur la touche de saut plus votre personnage ira haut. Il est aussi possible de diriger le tir de l&rsquo;arme à la manière d&rsquo;un Run&rsquo;n&rsquo;gun (mais <em>Cave Story</em> n&rsquo;en serait-il pas un ?). Le tir vers le bas n&rsquo;est cependant disponible que quand vous êtes en l&rsquo;air. Plus tard dans le jeu il vous sera possible de trouver un gadget augmentant la portée de vos sauts. Finalement la touche bas vous permet d&rsquo;examiner et de parler aux personnages.</p>
+<p><figure><img src="attachment143.jpg"
+         alt="attachment(143)"/>
+</figure>
+
+<figure><img src="attachment144.png"
+         alt="attachment(144)"/>
+</figure>
+</p>
+<p>Le jeu peut-il être aussi considéré comme un RPG ? Ça semble certain. Si le système de niveaux d&rsquo;armes est un peu trop changeant pour le considérer comme tel, il ne faut pas oublier les multiples capsules augmentant définitivement votre santé disséminées dans les niveaux (à la manière d&rsquo;un <em>Metroid</em>) ou les équipements augmentant vos attributs, l&rsquo;inventaire loin d’être statique, les quêtes ou les choses annexes à la quête principale. Finalement <em>Cave Story</em> est autant un A-RPG que n&rsquo;importe quel <em>Zelda</em>.</p>
+<p><figure><img src="attachment145.jpg"
+         alt="attachment(145)"/>
+</figure>
+
+<figure><img src="attachment146.jpg"
+         alt="attachment(146)"/>
+</figure>
+</p>
+<p>Je pense que vous l&rsquo;avez remarqué, les parties graphique (en 2D) et sonore sont intentionnellement rétros. Au niveau level design beaucoup de cavernes sont présentes (il fallait s&rsquo;y attendre) mais pas que. Le bestiaire est riche et quand il utilise l&rsquo;artifice du changement de couleur il propose des patterns différents. Les différents artworks associés à chaque personnage sont pas trop mal dessinés. Finalement le jeu reste fluide avec une grosse quantité d’éléments à l&rsquo;écran (même si on reste sur PC je le rappelle).
+Au niveau musical c&rsquo;est du très très bon avec une trentaine de musiques rythmant parfaitement l&rsquo;aventure. On peut en citer quelques-unes : &ldquo;<a href="http://www.youtube.com/watch?v=QW7NI5tWq_A">Balrog&rsquo;s Theme</a>&rdquo;, &ldquo;<a href="http://www.youtube.com/watch?v=A8smb_XuiSU">On To Grasstown</a>&rdquo;, &ldquo;<a href="http://www.youtube.com/watch?v=4bXUTe9nqx8">Eyes of Flame</a>&rdquo;, &ldquo;<a href="http://www.youtube.com/watch?v=C8D_tsp3gzs">Jenka (Version 2)</a>&rdquo;, &ldquo;<a href="http://www.youtube.com/watch?v=q09KoR7g018">Moonsong</a>&rdquo;, &ldquo;<a href="http://www.youtube.com/watch?v=i2mPLxHdFt4">Running Hell</a>&rdquo;, etc. Les musiques d&rsquo;ambiance sont également de qualité : &ldquo;<a href="http://www.youtube.com/watch?v=WZ4ZkRFR8yI">Safety</a>&rdquo;, &ldquo;<a href="http://www.youtube.com/watch?v=_8hdh0UFxJk">Geothermal</a>&rdquo;, &ldquo;<a href="http://www.youtube.com/watch?v=InU6sOIpvEs">Quiet</a>&rdquo;, etc. Pour vous donner une idée, les compositions musicales de Pixel seront tellement appréciées qu&rsquo;il distribuera un logiciel permettant de composer ses propres musiques avec les sons de <em>Cave Story</em> : <a href="http://www.cavestory.org/pixels-works/org-maker.php">Org Maker</a>.</p>
+<p><figure><img src="attachment147.jpg"
+         alt="attachment(147)"/>
+</figure>
+
+<figure><img src="attachment148.jpg"
+         alt="attachment(148)"/>
+</figure>
+</p>
+<p>Niveau durée de vie, comptez peut-être une dizaine ou une quinzaine d&rsquo;heures pour en voir le bout une première fois, cependant l&rsquo;obtention des autres armes et de la meilleure fin (qui vous permet de débloquer le dernier niveau et un autre boss final tout deux relativement difficiles) vous forceront à le recommencer une autre fois sans qu&rsquo;il y ait trace de redondance puisque le gameplay et les événements du jeu changeront en conséquence si vous cherchez à remplir ces deux conditions. Seul petit bémol, la quête principale compte quelques allers-retours mais rien de bien méchant.</p>
+<p><figure><img src="attachment149.png"
+         alt="attachment(149)"/>
+</figure>
+
+<figure><img src="attachment150.png"
+         alt="attachment(150)"/>
+</figure>
+</p>
+<p><em>À gauche : Avec ce boss les choses commencent à devenir sérieuses</em></p>
+<p>J&rsquo;ai oublié de parler de la difficulté du titre, on peut dire qu&rsquo;il possède une bonne difficulté de jeu rétro, bien qu&rsquo;elle mette un peu de temps à démarrer (au même titre que le scénario dans une moindre importance). Ici aucun continue ne vous sauvera la mise, une fois perdu vous recommencerez au dernier point de sauvegarde et ce peu importe ce que vous avez fait avant (rassurez-vous ils sont tout de même nombreux). Certains passages sont aussi relativement ardus.</p>
+<p><figure><img src="attachment151.png"
+         alt="attachment(151)"/>
+</figure>
+
+<figure><img src="attachment152.png"
+         alt="attachment(152)"/>
+</figure>
+</p>
+<p>Finalement, ce <em>Cave Story</em> est une bonne surprise. Conçu comme un jeu rétro, il possède un gameplay des plus intéressant, une narration efficace, une bonne difficulté et pas mal d&rsquo;à-côtés, tout ce qu&rsquo;on demande à un jeu de ce genre. Il permet de rappeler que dans une certaine mesure les jeux industriels, réalisés par des studios professionnels comptant parfois plus de 200 personnes ne sont pas forcement meilleurs que ceux réalisés par un seul passionné aujourd&rsquo;hui. En bref, <em>Cave Story</em> est un pionnier du jeu indé.
+Le jeu est sorti en dématérialisé sur PC, Wii et 3DS. Sur PC, il existe des patchs amateurs français alors que sur les versions consoles le jeu est resté en anglais. Une version boite nommée Cave Story 3D est sorti sur 3DS, cependant le jeu y a été refait dans une 3D immonde sans qu&rsquo;il soit possible de jouer avec les anciens graphismes ce qui est totalement scandaleux quand on voit que le jeu original est dispo en démat sur la console.</p>
+<p>Développeur: Pixel
+Année de sortie: 2004
+Article publié originellement sur Gamekult le 12/06/2013</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/relu/" rel="tag">Relu</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="7bits avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">À propos 7bits</span>
+	</div>
+	<div class="authorbox__description">
+		Blabla.
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/2013/06/soulcalibur-broken-destiny-psp/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Précédent</span>
+			<p class="pager__title">Soulcalibur Broken Destiny [PSP]</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/2013/06/super-mario-galaxy-wii/" rel="next">
+			<span class="pager__subtitle">Suivant&thinsp;»</span>
+			<p class="pager__title">Super Mario Galaxy [Wii]</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="Rechercher…" value="" name="q" aria-label="Rechercher…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://7bits.fr/" />
+	</form>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Flux RSS" rel="noopener noreferrer" href="/articles/index.xml" target="_blank">
+					<svg class="widget-social__link-icon icon" width="24" height="24" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM112 416c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm157.533 0h-34.335c-6.011 0-11.051-4.636-11.442-10.634-5.214-80.05-69.243-143.92-149.123-149.123-5.997-.39-10.633-5.431-10.633-11.441v-34.335c0-6.535 5.468-11.777 11.994-11.425 110.546 5.974 198.997 94.536 204.964 204.964.352 6.526-4.89 11.994-11.425 11.994zm103.027 0h-34.334c-6.161 0-11.175-4.882-11.427-11.038-5.598-136.535-115.204-246.161-251.76-251.76C68.882 152.949 64 147.935 64 141.774V107.44c0-6.454 5.338-11.664 11.787-11.432 167.83 6.025 302.21 141.191 308.205 308.205.232 6.449-4.978 11.787-11.432 11.787z"></path></svg>
+				<span>Flux RSS</span>
+			</a>
+		</div>
+		
+	</div>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Articles récents</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2021/06/senran-kagura-peach-ball-switch/">Senran Kagura Peach Ball [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-06-27T00:00:00Z">27/06/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2021/01/super-smash-bros.-ultimate-switch/">Super Smash Bros. Ultimate [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-01-19T21:04:14Z">19/01/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/10/rayman-origins-pc/">Rayman Origins [PC]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-10-11T15:17:17Z">11/10/2020</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/09/mario-kart-8-deluxe-switch/">Mario Kart 8 Deluxe [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-09-25T17:24:33Z">25/09/2020</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/08/sayonara-wild-hearts-switch/">Sayonara Wild Hearts [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-08-30T13:40:45Z">30/08/2020</time></div></span>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-platforms widget">
+	<h4 class="widget__title">Plates-formes</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/android/">Android</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/atari/jaguar/">Atari/Jaguar</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/flash/">Flash</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/microsoft/xbox-360/">Microsoft/XBOX 360</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/3ds/">Nintendo/3DS</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gb/">Nintendo/GB</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gba/">Nintendo/GBA</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gbc/">Nintendo/GBC</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/nds/">Nintendo/NDS</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/nes/">Nintendo/NES</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/snes/">Nintendo/SNES</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/switch/">Nintendo/Switch</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wii/">Nintendo/Wii</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wii-u/">Nintendo/Wii U</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wiiware/">Nintendo/Wiiware</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/pc/">PC</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/pc-98/">PC-98</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/philips/cd-i/">Philips/CD-i</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sega/dreamcast/">Sega/Dreamcast</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps-vr/">Sony/PS VR</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps1/">Sony/PS1</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps2/">Sony/PS2</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps3/">Sony/PS3</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps4/">Sony/PS4</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/psp/">Sony/PSP</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/vita/">Sony/Vita</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Catégories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action/">Action</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action-aventure/">Action-aventure</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action-rpg/">Action-RPG</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/arcade/">Arcade</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/aventure/">Aventure</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/beatem-all/">Beat&#39;em all</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/course-arcade/">Course arcade</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/danmaku/">Danmaku</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/dessin-anime-interactif/">Dessin animé interactif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/developpement/">Développement</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/die-and-retry/">Die and retry</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/film-interactif/">Film interactif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/flipper/">Flipper</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/fps/">FPS</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/infiltration/">Infiltration</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ludo-educatif/">Ludo-éducatif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ovni/">OVNI</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/plates-formes-2d/">Plates-formes 2D</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/plates-formes-3d/">Plates-formes 3D</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/pointn-click/">Point&#39;n click</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/puzzle-game/">Puzzle game</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rail-shooter/">Rail shooter</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/reflexion/">Réflexion</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rpg/">RPG</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rpg-au-tour-par-tour/">RPG au tour par tour</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/run-and-gun/">Run and gun</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rythme/">Rythme</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/shoot-em-up-classique/">Shoot &#39;em up classique</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/survival-horror/">Survival horror</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/tps/">TPS</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/versus-fighting/">Versus fighting</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/visual-novel/">Visual novel</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/vr/">VR</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Mots-clefs</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/non-relu/" title="Non relu">Non relu (56)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/relu/" title="Relu">Relu (63)</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 7bits.
+			<span class="footer__copyright-credits">Produit par <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> et le thème <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a>.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/regsw.js"></script><script src="/js/dsqs.js"></script></body>
+</html>

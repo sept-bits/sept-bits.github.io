@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Shantae [GBC] - 7bits</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Shantae [GBC]" />
+<meta property="og:description" content="Shantae est une série de jeux d&rsquo;action/aventure en 2D avec une forte composante exploration, sur de nombreux points les jeux sont semblables à Zelda tout en étant très loin d&rsquo;en être une simple copie. Ici nous nous intéressons au premier opus, sorti sur Game Boy Color (GBC) en 2002." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://7bits.fr/2017/03/shantae-gbc/" /><meta property="og:image" content="https://7bits.fr/img/logo.svg"/><meta property="article:section" content="articles" />
+<meta property="article:published_time" content="2017-03-07T12:11:43&#43;00:00" />
+<meta property="article:modified_time" content="2017-03-07T12:11:43&#43;00:00" />
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="7bits" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo.svg">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">7bits</div>
+					
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				
+				<span class="menu__text">Accueil</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/dev">
+				
+				<span class="menu__text">Développement</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms">
+				
+				<span class="menu__text">Supports</span>
+				
+			</a>
+		</li>
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/categories">
+				
+				<span class="menu__text">Genres</span>
+				<label class="drop-icon" for="Genres">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Genres">
+			<ul class="submenu__list">
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/android">
+				
+				<span class="menu__text">Android</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/atari">
+				
+				<span class="menu__text">Atari</span>
+				<label class="drop-icon" for="Atari">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Atari">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/atari/jaguar">
+						
+						<span class="menu__text">Jaguar</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/flash">
+				
+				<span class="menu__text">Flash</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/microsoft">
+				
+				<span class="menu__text">Microsoft</span>
+				<label class="drop-icon" for="Microsoft">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Microsoft">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/microsoft/xbox-360">
+						
+						<span class="menu__text">XBOX 360</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/nec">
+				
+				<span class="menu__text">NEC</span>
+				<label class="drop-icon" for="NEC">▾</label>
+				
+			</a>
+			<input type="checkbox" id="NEC">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nec/pc-98">
+						
+						<span class="menu__text">PC-98</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/nintendo">
+				
+				<span class="menu__text">Nintendo</span>
+				<label class="drop-icon" for="Nintendo">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Nintendo">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nintendo/switch">
+						
+						<span class="menu__text">Switch</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nintendo/wii">
+						
+						<span class="menu__text">Wii</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/pc">
+				
+				<span class="menu__text">PC</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/philips">
+				
+				<span class="menu__text">Philips</span>
+				<label class="drop-icon" for="Philips">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Philips">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/philips/cd-i">
+						
+						<span class="menu__text">CD-i</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/sega">
+				
+				<span class="menu__text">Sega</span>
+				<label class="drop-icon" for="Sega">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Sega">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sega/dreamcast">
+						
+						<span class="menu__text">Dreamcast</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/sony">
+				
+				<span class="menu__text">Sony</span>
+				<label class="drop-icon" for="Sony">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Sony">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps1">
+						
+						<span class="menu__text">PS1</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps2">
+						
+						<span class="menu__text">PS2</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps3">
+						
+						<span class="menu__text">PS3</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps4">
+						
+						<span class="menu__text">PS4</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps-vr">
+						
+						<span class="menu__text">PS VR</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/psp">
+						
+						<span class="menu__text">PSP</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/vita">
+						
+						<span class="menu__text">Vita</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+			</ul>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pages/edito/">
+				
+				<span class="menu__text">Édito</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Shantae [GBC]</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2017-03-07T12:11:43Z">07/03/2017</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/action-aventure/" rel="category">Action-aventure</a>
+	</span>
+</div><div class="meta__item-tags meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/relu/" rel="tag">Relu</a>
+	</span>
+</div></div>
+		</header>
+			
+			
+			<div class="content post__content clearfix">
+			<p><em>Shantae</em> est une série de jeux d&rsquo;action/aventure en 2D avec une forte composante exploration, sur de nombreux points les jeux sont semblables à Zelda tout en étant très loin d&rsquo;en être une simple copie.
+Ici nous nous intéressons au premier opus, sorti sur Game Boy Color (GBC) en 2002. Le jeu a eu un développement extrêmement long et rocambolesque : le personnage a d&rsquo;abord été imaginé en 1994 et le jeu a été prévu pour la SNES ou la PS1 avant d&rsquo;être développé sur l'<em>upgrade</em> de la Game Boy. Et ça ne s&rsquo;arrête pas là, le jeu étant ambitieux, il ne pouvait fonctionner que sur une cartouche 32 Mb, ce qui coûtait cher à produire. En conséquence, les développeurs eurent énormément de mal à trouver un éditeur. Finalement, Capcom accepta d&rsquo;éditer le jeu mais en très peu d&rsquo;exemplaires, uniquement aux US et un an après que la GBA soit sortie. Malgré de très bonnes critiques, le jeu est passé inaperçu, ce qui n&rsquo;aida vraiment pas la sortie de ses suites. Aujourd&rsquo;hui, en raison de sa bonne réputation et de sa rareté, <em>Shantae</em> est un des jeux à la côte la plus élevée de la Game Boy. Heureusement, le jeu est ressorti en téléchargement depuis et il est possible de trouver des reproductions assez facilement si vous voulez y jouer sur la console d&rsquo;origine comme moi.</p>
+<figure><img src="Shantae.jpg"/>
+</figure>
+
+<p>Le jeu se déroule dans un monde fantaisiste avec des inspirations orientales. Shantae est un demi-génie aux allures de danseuse du ventre qui a été nommé comme étant le gardien du port de pécheurs de Scuttle Town. Un jour, des pirate dirigés par l&rsquo;infâme Risky Boots attaquent le village et dérobent un moteur de machine à vapeur. Les pirates ne s&rsquo;arrêtent pas là et projettent alors de dérober les 4 pierres légendaires pour améliorer la machine. Pour contrecarrer leur plan, Shantae devra partir à la recherche des 4 pierres se trouvant, comme c&rsquo;est pratique, dans 4 donjons disséminés à travers le monde.L&rsquo;histoire n&rsquo;a donc pas grand intérêt mais elle est parfaite pour un jeu GBC. L&rsquo;humour est omniprésent grâce aux dialogues de l&rsquo;histoire ou annexes puisqu&rsquo;il est possible de discuter avec les habitants des villes visitées. On appréciera le thème de l&rsquo;opposition entre magie et machines ainsi que la fin qui arrive à donner un peu d&rsquo;émotion grâce à la mise en scène minimaliste 8 bits.</p>
+<p><figure><img src="01.jpg"/>
+</figure>
+
+<figure><img src="02.jpg"/>
+</figure>
+</p>
+<p>On en vient maintenant au <em>gameplay</em>.
+Les contrôles basiques sont ceux qu&rsquo;on attend d&rsquo;un jeu d&rsquo;action/plates-formes : sauter, frapper les ennemis (avec ses cheveux ! Ce n&rsquo;est pas sans rappeler notre sorcière de l&rsquo;Umbra préférée.) et, petite originalité, ramper.
+En appuyant sur Select, Shantae se met à danser et elle fait une animation différente pour chaque bouton pressé. Au fur et à mesure du jeu vous débloquerez des danses qui provoqueront certains effets lorsque vous entrerez des combinaisons de touches précises, un peu à la manière de l&rsquo;ocarina dans Zelda.
+Dans chaque donjon vous gagnerez une danse permettant de vous transformer en animal, ce qui change beaucoup le <em>gameplay</em> et permet de venir à bout des énigmes. Voici les 4 transformations possibles :</p>
+<pre><code>  * le singe, qui permet de faire des _walljumps_ à l'infini et qui saute un peu plus haut ;
+  * l'éléphant, qui permet de détruire des obstacles et de faire d'énormes dégâts aux ennemis ;
+  * l’araignée, qui permet de s'accrocher à certains murs ;
+  * la harpie qui permet de voler infiniment.
+</code></pre>
+<p>On remarquera la grande liberté de mouvement gagnée avec certaines transformations, très fun.</p>
+<p><figure><img src="12.jpg"/>
+</figure>
+
+<figure><img src="18.jpg"/>
+</figure>
+</p>
+<p>En plus de ces transformations, vous avez aussi accès à une très large palette d&rsquo;objets qui s&rsquo;achètent chez les marchands des différentes villes. Par exemple, vous avez des objets permettant de vous soigner, de former un bouclier de boules rotatives autour de vous, de passer au travers des ennemis, de vous dédoubler pour doubler les dégâts infligés aux ennemis ou d&rsquo;invoquer un nuage électrique qui infligera une puissante décharge à l&rsquo;ennemi si vous savez bien le placer.
+J&rsquo;ai trouvé qu&rsquo;il était un peu difficile de savoir quand utiliser les objets, cependant ça fait toujours un truc en plus dans le jeu et c&rsquo;est un bonus appréciable en terme de rejouabilité.</p>
+<p>Chez un marchand en particulier vous pourrez acheter des techniques de combat qui s&rsquo;effectuent grâce à des combinaisons de boutons ou en maintenant un bouton. Certaines techniques sont un peu inutiles mais d&rsquo;autres permettent de toucher des ennemis situés en hauteur ou font une tonne de dégâts par exemple.</p>
+<p><figure><img src="09.jpg"/>
+</figure>
+
+<figure><img src="15.jpg"/>
+</figure>
+</p>
+<p>Comme <em>Castlevania 2</em>, le jeu dispose d&rsquo;un cycle jour/nuit, les monstres devenant 2 fois plus forts la nuit.
+Quelques exemples de bonnes idées utilisant ce concept : les escargots géants dans le désert vous attaquent la journée mais rentrent dans leur coquille la nuit ; les zombies de la zone de glace se transforment en loups-garous une fois la nuit venue ; la caravane zombie, l&rsquo;une des villes du jeu à trouver, n&rsquo;est visitable que la nuit et change de position à chaque fois que le jour se lève.</p>
+<p>Les villes sont séparées entre elles par plusieurs zones. Chaque zone dispose d&rsquo;un design et d&rsquo;un bestiaire différent, certains ennemis ne se trouvent que dans une seule zone du jeu et disposent de <em>patterns</em> très particuliers. On appréciera la variété qui force le respect. Chaque zone dispose d&rsquo;une tonne de choses à trouver : les lucioles qui ne se trouvent que la nuit, les containers de cœur, chacun augmentant votre vie maximum d&rsquo;un cœur ou encore les <em>upgrades</em> qui vous permettent d&rsquo;attaquer lorsque vous êtes transformé. Une bonne idée c&rsquo;est que certains de ces <em>collectables</em> ne sont obtenables qu&rsquo;en résolvant des énigmes grâce aux objets, je ne vous donne qu&rsquo;un exemple très simple à trouver : dans une cave, un clown dit qu&rsquo;il adore voir des duos de jeunes filles danser, pour qu&rsquo;il vous laisse passer il faut utiliser une danse en ayant utilisé l&rsquo;objet permettant de vous dédoubler. Très peu de choses vous sont expliquées dans le jeu et c&rsquo;est là qu&rsquo;interviennent les habitants des villes qui vous donneront pour le coup de précieux conseils, certains permettant d&rsquo;accéder à des secrets.</p>
+<p><figure><img src="03.jpg"/>
+</figure>
+
+<figure><img src="13.jpg"/>
+</figure>
+</p>
+<p>Le principal défaut du jeu se trouve dans les allers-retours qu&rsquo;on doit faire en début de jeu. En effet, on peut avoir envie de retourner dans certaines villes vendant des objets précis, on peut vouloir réexplorer certains endroits après avoir obtenu un nouveau pouvoir (ce qui est recommandé) ou juste être perdu. Les allers-retours sont alors un peu frustrants puisque les zones sont longues et qu&rsquo;il est facile de mourir vu qu&rsquo;on a à ce moment peu de cœurs.
+Cependant, ce défaut va en s&rsquo;atténuant tout au long de la progression dans le jeu. En effet, les nouvelles formes permettent de prendre des raccourcis. Dans chaque donjon sont situées 5 méduses à trouver. En plaçant 4 méduses dans une ville, vous gagnerez une danse qui vous permettra de vous téléporter dans cette ville en particulier à n&rsquo;importe quel moment. Enfin vous deviendrez de plus en plus fort et vous aurez donc de moins en moins de mal à traverser les zones, la harpie en particulier facilite incroyablement la traversée des zones ce qui est parfait pour la quête des 100 % en fin de jeu.</p>
+<p>Il existe aussi des mini-jeux trouvables dans les villes, parmi lesquels un mini-jeu de rythme avec différents niveaux de difficulté où Shantae donne un spectacle de danse, un mini-jeu de hasard basé sur la prise de risque et un mini-jeu de course d&rsquo;obstacles.
+Si vous n&rsquo;abusez pas du mini-jeu de hasard pour gagner de l&rsquo;argent, vous aurez besoin de l&rsquo;argent jusqu&rsquo;à la fin du jeu pour acheter des objets, techniques ou autres. C&rsquo;est un avantage sur Zelda, où dans la plupart des jeux on finit beaucoup trop vite avec une bourse remplie sans plus rien à acheter, ce qui est très frustrant.</p>
+<p><figure><img src="04.jpg"/>
+</figure>
+
+<figure><img src="06.jpg"/>
+</figure>
+</p>
+<p>Le jeu est magnifique pour la Game Boy Color. Il est extrêmement coloré, les développeurs ont même codé le jeu pour qu&rsquo;il le soit encore plus sur GBA, parce qu&rsquo;ils trouvaient que les couleurs étaient trop sombres sur celle-ci. Le jeu comporte beaucoup d&rsquo;ennemis et d&rsquo;environnements différents, ainsi que des animations détaillées, mention pour les impressionnantes animations de combat de Shantae, l&rsquo;animation de fin de niveau où Shantae tourne sur elle-même et enfin les animations de la transformation en singe parce qu&rsquo;on arrive presque à ressentir le fun qu&rsquo;a Shantae à pouvoir sauter partout. Le jeu possède même quelques bons effets graphiques comme la transition entre jour et nuit qui se fait instantanément avec un fondu sur tous les éléments de l&rsquo;écran ; la traversée des villes qui se fait avec une vue de derrière ; des réflexions déformées sur l&rsquo;eau ; dans la forêt, les arbres sont placés soit en avant, soit en arrière-plan ; ajoutons également du scrolling différentiel. Il faut également que je cite le niveau d&rsquo;ouverture et celui de fin qui comptent plein de petits événements scriptés, ce qui est vraiment cool.</p>
+<p>Les musiques sont rarement mémorables (mention tout de même pour le délirant thème de la caravane zombie et peut-être pour le <em>boss theme</em>), toutefois elles restent dans le ton.</p>
+<p><figure><img src="05.jpg"/>
+</figure>
+
+<figure><img src="16.jpg"/>
+</figure>
+</p>
+<p>Le jeu fait partie des très rares jeux qui sont <em>GBA enhanced</em>, il s&rsquo;agit d&rsquo;une fonctionnalité détectant si vous jouez sur Game Boy Color ou GBA et qui vous débloque du contenu additionnel si vous jouez sur GBA. Dans <em>Shantae</em>, vous débloquez une danse à l&rsquo;achat qui vous permet d&rsquo;avoir une 5e transformation. Si vous jouez sur la version dématérialisée de l&rsquo;e-shop, vous ne pourrez pas l&rsquo;avoir puisque le jeu considère que vous jouez sur Game Boy Color. La transformation est vraiment cool et combine de façon pratique plusieurs avantages d&rsquo;autres transformations mais on peut s&rsquo;en passer.</p>
+<p>Pour finir le jeu à 100% vous pouvez compter jusqu&rsquo;à 10 heures en prenant votre temps, ce qui est très bon pour un jeu Game Boy Color. La difficulté est bonne je n&rsquo;ai pas à m&rsquo;en plaindre, mis à part lors du début du jeu comme vu précédemment où l&rsquo;on doit faire de longs allers-retours avec peu de vie ainsi que pour certains boss trop simples dont la principale difficulté est juste de trouver comment leur faire des dégâts.</p>
+<p><figure><img src="17.jpg"/>
+</figure>
+
+<figure><img src="07.jpg"/>
+</figure>
+</p>
+<p>Vous l&rsquo;aurez remarqué, <em>Shantae</em> est vraiment très riche en contenu, ce qui se retrouve dans sa progression, le jeu se renouvelant sans cesse par de nouvelles idées de <em>game design</em>. Cette richesse se retrouve dans le <em>gameplay</em>, grâce aux transformations, techniques de combat et objets qui donnent plus d&rsquo;une façon de compléter le jeu. On retrouve aussi cela dans la variété des environnements et le bestiaire plus que complet. Le jeu est absolument sublime pour la portable colorée et multiplie les effets graphiques pour le plus grand plaisir de nos mirettes. Les fans d&rsquo;exploration seront aux anges puisqu&rsquo;il y a plein de secrets à trouver dans les niveaux dont certains demandent de se creuser la tête pour être complétés. Le gros défaut du jeu concerne les pénibles allers-retours que l&rsquo;on doit faire en début de jeu mais cela s&rsquo;atténue de plus en plus au fur et à mesure du jeu. En bref, il s&rsquo;agit clairement d&rsquo;un indispensable de la console qui aurait mérité bien plus d&rsquo;attention, en y jouant on peut sentir que les développeurs ont mis beaucoup de temps et d&rsquo;efforts dans leur jeu.
+<strong>Les suites :</strong> Plusieurs suites furent envisagées : <em>Shantae Risky Revolution</em> sur GBA (dont on peut voir <a href="https://youtu.be/BHHrzJzW_w0">une vidéo de la démo ici</a>) et <em>Shantae Risky Waters</em> sur DS, malheureusement elles furent annulées et il faudra attendre 2009 pour que Shantae ait enfin son second épisode : <em>Shantae Risky&rsquo;s Revenge</em> sorti en dématérialisé sur DSi. La série connaîtra enfin la renommée et deux autres suites sortiront sur divers supports en 2014 (<em>Shantae and the Pirate&rsquo;s Curse</em>) puis en 2016 (<em>Shantae Half-Genie Hero</em>).</p>
+<p>Développeur : WayForward Technologies
+Date de sortie : 2002
+Article publié originellement sur Gamekult le 07/03/2017</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/relu/" rel="tag">Relu</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="7bits avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">À propos 7bits</span>
+	</div>
+	<div class="authorbox__description">
+		Blabla.
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/2017/02/pokemon-soleil-3ds/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Précédent</span>
+			<p class="pager__title">Pokémon Soleil [3DS]</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/2017/05/teenage-mutant-hero-turtles-nes/" rel="next">
+			<span class="pager__subtitle">Suivant&thinsp;»</span>
+			<p class="pager__title">Teenage Mutant Hero Turtles [NES]</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="Rechercher…" value="" name="q" aria-label="Rechercher…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://7bits.fr/" />
+	</form>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Flux RSS" rel="noopener noreferrer" href="/articles/index.xml" target="_blank">
+					<svg class="widget-social__link-icon icon" width="24" height="24" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM112 416c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm157.533 0h-34.335c-6.011 0-11.051-4.636-11.442-10.634-5.214-80.05-69.243-143.92-149.123-149.123-5.997-.39-10.633-5.431-10.633-11.441v-34.335c0-6.535 5.468-11.777 11.994-11.425 110.546 5.974 198.997 94.536 204.964 204.964.352 6.526-4.89 11.994-11.425 11.994zm103.027 0h-34.334c-6.161 0-11.175-4.882-11.427-11.038-5.598-136.535-115.204-246.161-251.76-251.76C68.882 152.949 64 147.935 64 141.774V107.44c0-6.454 5.338-11.664 11.787-11.432 167.83 6.025 302.21 141.191 308.205 308.205.232 6.449-4.978 11.787-11.432 11.787z"></path></svg>
+				<span>Flux RSS</span>
+			</a>
+		</div>
+		
+	</div>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Articles récents</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2021/06/senran-kagura-peach-ball-switch/">Senran Kagura Peach Ball [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-06-27T00:00:00Z">27/06/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2021/01/super-smash-bros.-ultimate-switch/">Super Smash Bros. Ultimate [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-01-19T21:04:14Z">19/01/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/10/rayman-origins-pc/">Rayman Origins [PC]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-10-11T15:17:17Z">11/10/2020</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/09/mario-kart-8-deluxe-switch/">Mario Kart 8 Deluxe [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-09-25T17:24:33Z">25/09/2020</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/08/sayonara-wild-hearts-switch/">Sayonara Wild Hearts [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-08-30T13:40:45Z">30/08/2020</time></div></span>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-platforms widget">
+	<h4 class="widget__title">Plates-formes</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/android/">Android</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/atari/jaguar/">Atari/Jaguar</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/flash/">Flash</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/microsoft/xbox-360/">Microsoft/XBOX 360</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/3ds/">Nintendo/3DS</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gb/">Nintendo/GB</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gba/">Nintendo/GBA</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gbc/">Nintendo/GBC</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/nds/">Nintendo/NDS</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/nes/">Nintendo/NES</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/snes/">Nintendo/SNES</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/switch/">Nintendo/Switch</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wii/">Nintendo/Wii</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wii-u/">Nintendo/Wii U</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wiiware/">Nintendo/Wiiware</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/pc/">PC</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/pc-98/">PC-98</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/philips/cd-i/">Philips/CD-i</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sega/dreamcast/">Sega/Dreamcast</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps-vr/">Sony/PS VR</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps1/">Sony/PS1</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps2/">Sony/PS2</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps3/">Sony/PS3</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps4/">Sony/PS4</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/psp/">Sony/PSP</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/vita/">Sony/Vita</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Catégories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action/">Action</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action-aventure/">Action-aventure</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action-rpg/">Action-RPG</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/arcade/">Arcade</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/aventure/">Aventure</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/beatem-all/">Beat&#39;em all</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/course-arcade/">Course arcade</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/danmaku/">Danmaku</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/dessin-anime-interactif/">Dessin animé interactif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/developpement/">Développement</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/die-and-retry/">Die and retry</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/film-interactif/">Film interactif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/flipper/">Flipper</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/fps/">FPS</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/infiltration/">Infiltration</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ludo-educatif/">Ludo-éducatif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ovni/">OVNI</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/plates-formes-2d/">Plates-formes 2D</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/plates-formes-3d/">Plates-formes 3D</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/pointn-click/">Point&#39;n click</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/puzzle-game/">Puzzle game</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rail-shooter/">Rail shooter</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/reflexion/">Réflexion</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rpg/">RPG</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rpg-au-tour-par-tour/">RPG au tour par tour</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/run-and-gun/">Run and gun</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rythme/">Rythme</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/shoot-em-up-classique/">Shoot &#39;em up classique</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/survival-horror/">Survival horror</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/tps/">TPS</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/versus-fighting/">Versus fighting</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/visual-novel/">Visual novel</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/vr/">VR</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Mots-clefs</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/non-relu/" title="Non relu">Non relu (56)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/relu/" title="Relu">Relu (63)</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 7bits.
+			<span class="footer__copyright-credits">Produit par <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> et le thème <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a>.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/regsw.js"></script><script src="/js/dsqs.js"></script></body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on 7bits</title>
+    <link>https://7bits.fr/pages/</link>
+    <description>Recent content in Pages on 7bits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language><atom:link href="https://7bits.fr/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Édito</title>
+      <link>https://7bits.fr/pages/edito/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://7bits.fr/pages/edito/</guid>
+      <description>Bienvenue sur ce blog consacré au développement et aux tests de jeux vidéo.
+Dans la section Développement, vous pourrez voir les différents jeux que j&amp;rsquo;ai développé. Ce ne sont que des petits jeux pour la plupart mais je vous conseille vivement de vous essayer à You Are Not a Square sur lequel j&amp;rsquo;ai passé beaucoup de temps et qui j&amp;rsquo;espère vous plaira autant que j&amp;rsquo;ai eu de plaisir à le faire.</description>
+    </item>
+    
+  </channel>
+</rss>

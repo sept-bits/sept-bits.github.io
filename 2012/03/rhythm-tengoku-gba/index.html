@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Rhythm Tengoku [GBA] - 7bits</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Rhythm Tengoku [GBA]" />
+<meta property="og:description" content="Après qu&#39;Oendan soit sorti, il était temps de lancer une réponse sur GBA made in Nintendo, c&rsquo;est la team Wario Ware qui s&rsquo;y colle et Nintendo nous sort ici le tout dernier jeu de sa nomade 32 bits, et quel jeu !" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://7bits.fr/2012/03/rhythm-tengoku-gba/" /><meta property="og:image" content="https://7bits.fr/img/logo.svg"/><meta property="article:section" content="articles" />
+<meta property="article:published_time" content="2012-03-16T04:37:17&#43;00:00" />
+<meta property="article:modified_time" content="2012-03-16T04:37:17&#43;00:00" />
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="7bits" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo.svg">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">7bits</div>
+					
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				
+				<span class="menu__text">Accueil</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/dev">
+				
+				<span class="menu__text">Développement</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms">
+				
+				<span class="menu__text">Supports</span>
+				
+			</a>
+		</li>
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/categories">
+				
+				<span class="menu__text">Genres</span>
+				<label class="drop-icon" for="Genres">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Genres">
+			<ul class="submenu__list">
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/android">
+				
+				<span class="menu__text">Android</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/atari">
+				
+				<span class="menu__text">Atari</span>
+				<label class="drop-icon" for="Atari">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Atari">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/atari/jaguar">
+						
+						<span class="menu__text">Jaguar</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/flash">
+				
+				<span class="menu__text">Flash</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/microsoft">
+				
+				<span class="menu__text">Microsoft</span>
+				<label class="drop-icon" for="Microsoft">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Microsoft">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/microsoft/xbox-360">
+						
+						<span class="menu__text">XBOX 360</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/nec">
+				
+				<span class="menu__text">NEC</span>
+				<label class="drop-icon" for="NEC">▾</label>
+				
+			</a>
+			<input type="checkbox" id="NEC">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nec/pc-98">
+						
+						<span class="menu__text">PC-98</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/nintendo">
+				
+				<span class="menu__text">Nintendo</span>
+				<label class="drop-icon" for="Nintendo">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Nintendo">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nintendo/switch">
+						
+						<span class="menu__text">Switch</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nintendo/wii">
+						
+						<span class="menu__text">Wii</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/pc">
+				
+				<span class="menu__text">PC</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/philips">
+				
+				<span class="menu__text">Philips</span>
+				<label class="drop-icon" for="Philips">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Philips">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/philips/cd-i">
+						
+						<span class="menu__text">CD-i</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/sega">
+				
+				<span class="menu__text">Sega</span>
+				<label class="drop-icon" for="Sega">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Sega">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sega/dreamcast">
+						
+						<span class="menu__text">Dreamcast</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/sony">
+				
+				<span class="menu__text">Sony</span>
+				<label class="drop-icon" for="Sony">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Sony">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps1">
+						
+						<span class="menu__text">PS1</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps2">
+						
+						<span class="menu__text">PS2</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps3">
+						
+						<span class="menu__text">PS3</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps4">
+						
+						<span class="menu__text">PS4</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps-vr">
+						
+						<span class="menu__text">PS VR</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/psp">
+						
+						<span class="menu__text">PSP</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/vita">
+						
+						<span class="menu__text">Vita</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+			</ul>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pages/edito/">
+				
+				<span class="menu__text">Édito</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Rhythm Tengoku [GBA]</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2012-03-16T04:37:17Z">16/03/2012</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/rythme/" rel="category">Rythme</a>
+	</span>
+</div><div class="meta__item-tags meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/relu/" rel="tag">Relu</a>
+	</span>
+</div></div>
+		</header>
+			
+			
+			<div class="content post__content clearfix">
+			<p>Après qu'<em>Oendan</em> soit sorti, il était temps de lancer une réponse sur GBA made in Nintendo, c&rsquo;est la team Wario Ware qui s&rsquo;y colle et Nintendo nous sort ici le tout dernier jeu de sa nomade 32 bits, et quel jeu !</p>
+<figure><img src="097_2.jpg"/>
+</figure>
+
+<p><em>Wario Ware Twisted</em> n&rsquo;étant pas sorti dans nos contrées et <em>Rhythm Tengoku</em> sortant en toute toute fin de vie de la console, il ne semblait pas question de prendre le temps de le traduire et de le sortir ailleurs, heureusement le jeu est tellement intuitif qu&rsquo;il est possible de le terminer entièrement sans connaitre une bribe de Japonais, ouf.</p>
+<figure><img src="attachment257.jpg"
+         alt="attachment(257)"/>
+</figure>
+
+<p><em>Le jeu du samouraï dont l&rsquo;objectif est de découper des tengus est un des plus fun</em></p>
+<p>Le jeu est donc un jeu de rythme complètement barré à la sauce Wario Ware, une fois fini la phase de lancement pour déterminer votre rythme, on est lancé avec un seul mini-jeu à jouer, pour débloquer le mini-jeu suivant il faudra obtenir au moins un classement passable dans le jeu précédent ce qui oblige à atteindre une certaine maîtrise pour tous les jeux, une fois complété cinq niveaux, un niveau mix des cinq mini-jeux précédents enchaînant les phases au fur et à mesure se débloque, une fois le mix maîtrisé on débloque une nouvelle colonne de jeux et c&rsquo;est reparti.</p>
+<figure><img src="attachment258.jpg"
+         alt="attachment(258)"/>
+</figure>
+
+<p><em>Le jeu de claquettes avec les singes est extrêmement prenant</em></p>
+<p>Les mini-jeux se jouent avec la croix directionnelle et les boutons A et B. Si un certain nombre de jeux se joueront avec seulement le bouton A (ce qui est toutefois normal vu que l&rsquo;on a affaire à un jeu de rythme) certains se payeront le luxe d&rsquo;utiliser tous les boutons utilisables. Les jeux sont extrêmement intuitifs et on ne sera jamais perdus même sans comprendre les instructions données en japonais.</p>
+<p>Les jeux sont parfois complètement barrés et décalés, arracher les poils d&rsquo;un oignon avec une pince a épiler, faire faire une marche militaire à des vieux dans des costumes de lapin, faire sauter en rythme un lapin sur des baleines et des tortues de mer ou d&rsquo;autres jeux dont j&rsquo;aurais du mal a expliquer le principe, on retrouve aussi des jeux au contexte très simpliste mais toujours très décalés.</p>
+<figure><img src="attachment259.jpg"
+         alt="attachment(259)"/>
+</figure>
+
+<p><em>Ici on doit épiler des oignons, parfois des betteraves et d&rsquo;autres légumes, difficile à croire mais il y a encore plus débile</em></p>
+<p>Mais l&rsquo;endroit où le jeu tire sa plus grande force c&rsquo;est dans son essence même : le rythme, les musiques à suivre, les bruitages, les nombreuses voix que l&rsquo;on retrouve dans les jeux que ce soit des chansons ou des karaokés, la réalisation qui donne des temps forts à certains mini-jeux, etc. tout cela produit des jeux incroyablement entraînants et bien fichus, si <em>Wario Ware</em> utilisait déjà certains de ces artifices cela restait restreint dans l&rsquo;utilisation des mini-jeux, ici tout le potentiel rythmique est utilisé.</p>
+<p><figure><img src="attachment260.jpg"
+         alt="attachment(260)"/>
+</figure>
+
+<figure><img src="attachment261.jpg"
+         alt="attachment(261)"/>
+</figure>
+</p>
+<p><em><a href="https://youtu.be/8N_kE62bugs">Le mix 5 est vraiment excellent</a>, en fond joue une superbe chanson (&ldquo;WISH ~Kimi wo Matenakute~&quot;), les niveaux joués précédemment sont entièrement relookés et le mix avance au fur et à mesure comme si c&rsquo;était un clip (texte référentiel, générique de fin, etc.), on oublierait presque qu&rsquo;on est sur une simple GBA</em></p>
+<p>Le jeu est bien dosé niveau difficulté, certains mini-jeux devront être rejoués une quinzaine de fois pour obtenir la mention passable et ainsi progresser. Une fois un mini-jeu fini on peut obtenir 3 rangs (avec plus ou moins de nuances mais cela n&rsquo;affecte rien) : Médiocre, Passable puis Excellent, il faudra obtenir une très bonne maîtrise d&rsquo;un mini-jeu pour obtenir son statut Excellent. Une fois atteint ce rang on débloque la médaille pour le mini-jeu joué. Aléatoirement lors du jeu, un diplôme pourra apparaître au hasard sur un mini-jeu sur lequel on aura déjà obtenu une médaille, il faudra alors réussir le mini-jeu en ne faisant absolument aucune erreur, autant dire que l&rsquo;obtention de tous les diplômes est à réserver aux plus acharnés qui n&rsquo;auront eux rien à redire sur la difficulté et la durée de vie du jeu. À noter qu&rsquo;au fur et à mesure de l&rsquo;obtention des médailles, des mini-jeux annexes comme ceux des <em>Wario Ware</em> seront débloqués. L&rsquo;obtention des médailles permet aussi de se distraire même quand on est bloqués.</p>
+<figure><img src="attachment262.jpg"
+         alt="attachment(262)"/>
+</figure>
+
+<p><em>Les deux karaokés ont été une véritable torture pour moi</em></p>
+<p>Le seul défaut que je donnerais est que le jeu souffre d&rsquo;un très léger manque de contenu et les deux colonnes que l&rsquo;on débloque après la fin du jeu sont constituées de reprises d&rsquo;autres jeux (bien qu&rsquo;étant de très bonnes reprises et apportant réellement quelque chose à l&rsquo;ensemble) mais bon, après avoir passé quinze heures sur le jeu c&rsquo;est peut être compréhensible. Selon le rang obtenu on a droit à des images comiques en rapport avec les personnages ou le niveau, c&rsquo;est ici le seul élément de scénario vu que le jeu en semble dépourvu (et ça aurait été bien difficile de faire autrement).</p>
+<figure><img src="attachment263.jpg"
+         alt="attachment(263)"/>
+</figure>
+
+<p><em><a href="https://youtu.be/sU6XiWDwjxc">La musique de ce niveau est sublime</a></em></p>
+<p>Prenant, décalé, addictif, extrêmement entraînant, <em>Rhythm Tengoku</em> est une véritable raison à l&rsquo;import, Nintendo donne ici le dernier titre à la GBA et en même temps un de ses meilleurs hits.
+EDIT : À noter que les suites sont, elles, sorties en Europe. Elles ont pour noms <em>Rhythm Paradise</em> (sur DS) et <em>Beat the Beat Rhythm Paradise</em> (sur Wii).</p>
+<p>Développeur: Nintendo
+Date de sortie: 2006
+Article publié originellement sur Gamekult le 16/03/2012</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/relu/" rel="tag">Relu</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="7bits avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">À propos 7bits</span>
+	</div>
+	<div class="authorbox__description">
+		Blabla.
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/2012/03/super-mario-3d-land-3ds/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Précédent</span>
+			<p class="pager__title">Super Mario 3D Land [3DS]</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/2012/04/la-legende-de-spyro-naissance-dun-dragon-ps2/" rel="next">
+			<span class="pager__subtitle">Suivant&thinsp;»</span>
+			<p class="pager__title">La Légende de Spyro Naissance d&#39;un Dragon [PS2]</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="Rechercher…" value="" name="q" aria-label="Rechercher…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://7bits.fr/" />
+	</form>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Flux RSS" rel="noopener noreferrer" href="/articles/index.xml" target="_blank">
+					<svg class="widget-social__link-icon icon" width="24" height="24" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM112 416c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm157.533 0h-34.335c-6.011 0-11.051-4.636-11.442-10.634-5.214-80.05-69.243-143.92-149.123-149.123-5.997-.39-10.633-5.431-10.633-11.441v-34.335c0-6.535 5.468-11.777 11.994-11.425 110.546 5.974 198.997 94.536 204.964 204.964.352 6.526-4.89 11.994-11.425 11.994zm103.027 0h-34.334c-6.161 0-11.175-4.882-11.427-11.038-5.598-136.535-115.204-246.161-251.76-251.76C68.882 152.949 64 147.935 64 141.774V107.44c0-6.454 5.338-11.664 11.787-11.432 167.83 6.025 302.21 141.191 308.205 308.205.232 6.449-4.978 11.787-11.432 11.787z"></path></svg>
+				<span>Flux RSS</span>
+			</a>
+		</div>
+		
+	</div>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Articles récents</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2021/06/senran-kagura-peach-ball-switch/">Senran Kagura Peach Ball [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-06-27T00:00:00Z">27/06/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2021/01/super-smash-bros.-ultimate-switch/">Super Smash Bros. Ultimate [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-01-19T21:04:14Z">19/01/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/10/rayman-origins-pc/">Rayman Origins [PC]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-10-11T15:17:17Z">11/10/2020</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/09/mario-kart-8-deluxe-switch/">Mario Kart 8 Deluxe [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-09-25T17:24:33Z">25/09/2020</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/08/sayonara-wild-hearts-switch/">Sayonara Wild Hearts [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-08-30T13:40:45Z">30/08/2020</time></div></span>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-platforms widget">
+	<h4 class="widget__title">Plates-formes</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/android/">Android</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/atari/jaguar/">Atari/Jaguar</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/flash/">Flash</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/microsoft/xbox-360/">Microsoft/XBOX 360</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/3ds/">Nintendo/3DS</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gb/">Nintendo/GB</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gba/">Nintendo/GBA</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gbc/">Nintendo/GBC</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/nds/">Nintendo/NDS</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/nes/">Nintendo/NES</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/snes/">Nintendo/SNES</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/switch/">Nintendo/Switch</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wii/">Nintendo/Wii</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wii-u/">Nintendo/Wii U</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wiiware/">Nintendo/Wiiware</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/pc/">PC</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/pc-98/">PC-98</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/philips/cd-i/">Philips/CD-i</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sega/dreamcast/">Sega/Dreamcast</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps-vr/">Sony/PS VR</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps1/">Sony/PS1</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps2/">Sony/PS2</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps3/">Sony/PS3</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps4/">Sony/PS4</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/psp/">Sony/PSP</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/vita/">Sony/Vita</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Catégories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action/">Action</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action-aventure/">Action-aventure</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action-rpg/">Action-RPG</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/arcade/">Arcade</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/aventure/">Aventure</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/beatem-all/">Beat&#39;em all</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/course-arcade/">Course arcade</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/danmaku/">Danmaku</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/dessin-anime-interactif/">Dessin animé interactif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/developpement/">Développement</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/die-and-retry/">Die and retry</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/film-interactif/">Film interactif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/flipper/">Flipper</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/fps/">FPS</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/infiltration/">Infiltration</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ludo-educatif/">Ludo-éducatif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ovni/">OVNI</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/plates-formes-2d/">Plates-formes 2D</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/plates-formes-3d/">Plates-formes 3D</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/pointn-click/">Point&#39;n click</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/puzzle-game/">Puzzle game</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rail-shooter/">Rail shooter</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/reflexion/">Réflexion</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rpg/">RPG</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rpg-au-tour-par-tour/">RPG au tour par tour</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/run-and-gun/">Run and gun</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rythme/">Rythme</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/shoot-em-up-classique/">Shoot &#39;em up classique</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/survival-horror/">Survival horror</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/tps/">TPS</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/versus-fighting/">Versus fighting</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/visual-novel/">Visual novel</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/vr/">VR</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Mots-clefs</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/non-relu/" title="Non relu">Non relu (56)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/relu/" title="Relu">Relu (63)</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 7bits.
+			<span class="footer__copyright-credits">Produit par <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> et le thème <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a>.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/regsw.js"></script><script src="/js/dsqs.js"></script></body>
+</html>

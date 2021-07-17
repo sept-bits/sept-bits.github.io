@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Développement on 7bits</title>
+    <link>https://7bits.fr/categories/developpement/</link>
+    <description>Recent content in Développement on 7bits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 09 Jan 2019 17:40:28 +0000</lastBuildDate><atom:link href="https://7bits.fr/categories/developpement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You Are Not a Square v0.9 [Développement]</title>
+      <link>https://7bits.fr/dev/2019-01-09-you-are-not-a-square-v0-9-developpement/</link>
+      <pubDate>Wed, 09 Jan 2019 17:40:28 +0000</pubDate>
+      
+      <guid>https://7bits.fr/dev/2019-01-09-you-are-not-a-square-v0-9-developpement/</guid>
+      <description>You Are Not a Square est un jeu d&amp;rsquo;aventure expérimental comportant quelques mini-jeux. Il a été développé en Java avec la bibliothèque LibGDX et est disponible pour PC et bientôt Android.
+Synopsis : Tout semble aller pour le mieux dans votre vie quand des rêves étranges viennent troubler votre quotidien.</description>
+    </item>
+    
+    <item>
+      <title>To Err is Human [Développement]</title>
+      <link>https://7bits.fr/dev/2017-04-17-to-err-is-human-developpement/</link>
+      <pubDate>Mon, 17 Apr 2017 14:24:46 +0000</pubDate>
+      
+      <guid>https://7bits.fr/dev/2017-04-17-to-err-is-human-developpement/</guid>
+      <description>To Err is Human est un jeu de plates-formes 2D développé avec Unity à l&amp;rsquo;occasion de la Game jam 2017 de Poitiers.
+Étant donné qu&amp;rsquo;il s&amp;rsquo;agit d&amp;rsquo;un jeu Game jam cela veut dire qu&amp;rsquo;il a été développé en seulement 3 jours et donc qu&amp;rsquo;il s&amp;rsquo;agit d&amp;rsquo;un petit jeu.</description>
+    </item>
+    
+    <item>
+      <title>Vendredi, le jour des frites ! (inachevé) [Développement]</title>
+      <link>https://7bits.fr/dev/2015-03-07-vendredi-le-jour-des-frites-inacheve-developpement/</link>
+      <pubDate>Sat, 07 Mar 2015 14:09:27 +0000</pubDate>
+      
+      <guid>https://7bits.fr/dev/2015-03-07-vendredi-le-jour-des-frites-inacheve-developpement/</guid>
+      <description>Vendredi, le jour des frites ! est un point&amp;rsquo;nclick en 2D que j&amp;rsquo;avais développé en Java avec la bibliothèque LibGDX. Il n&amp;rsquo;a jamais été terminé.
+Dans ce jeu, on incarne Hubert Desmatinsquichantent. Il s&amp;rsquo;agit d&amp;rsquo;un type qui a la trentaine, qui vit avec son iguane Marcel et qui a pour job de vérifier les définitions dans le jeu Des chiffres et des lettres, un genre de Gaston Lagaffe en fait.</description>
+    </item>
+    
+    <item>
+      <title>Dream Boat [Développement]</title>
+      <link>https://7bits.fr/dev/2013-06-03-dream-boat-developpement/</link>
+      <pubDate>Mon, 03 Jun 2013 18:45:17 +0000</pubDate>
+      
+      <guid>https://7bits.fr/dev/2013-06-03-dream-boat-developpement/</guid>
+      <description>Dream Boat est un petit shoot&amp;rsquo;em up 2D que j&amp;rsquo;avais développé durant ma formation en informatique.
+Le jeu n&amp;rsquo;est constitué que d&amp;rsquo;un niveau et d&amp;rsquo;un boss avec plusieurs patterns, il se finit donc très vite. J&amp;rsquo;ai essayé de faire un level design assez original pour pallier le manque de niveau.</description>
+    </item>
+    
+  </channel>
+</rss>

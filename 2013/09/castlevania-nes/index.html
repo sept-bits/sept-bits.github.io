@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Castlevania [NES] - 7bits</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Castlevania [NES]" />
+<meta property="og:description" content="Si vous vous intéressez un tant soit peu au secteur vidéoludique il semble quasiment impossible que vous ne connaissiez pas Castlevania, série phare de Konami qui a traversé les âges jusqu&rsquo;à devenir un emblème du jeu vidéo. La saga prend ses racines en 1986 sur NES et MSX2 sous le nom de Akumajō Dracula, qui sera renommé Castlevania sur la console de Nintendo une fois arrivé chez nous." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://7bits.fr/2013/09/castlevania-nes/" /><meta property="og:image" content="https://7bits.fr/img/logo.svg"/><meta property="article:section" content="articles" />
+<meta property="article:published_time" content="2013-09-05T14:24:29&#43;00:00" />
+<meta property="article:modified_time" content="2013-09-05T14:24:29&#43;00:00" />
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="7bits" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo.svg">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">7bits</div>
+					
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				
+				<span class="menu__text">Accueil</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/dev">
+				
+				<span class="menu__text">Développement</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms">
+				
+				<span class="menu__text">Supports</span>
+				
+			</a>
+		</li>
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/categories">
+				
+				<span class="menu__text">Genres</span>
+				<label class="drop-icon" for="Genres">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Genres">
+			<ul class="submenu__list">
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/android">
+				
+				<span class="menu__text">Android</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/atari">
+				
+				<span class="menu__text">Atari</span>
+				<label class="drop-icon" for="Atari">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Atari">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/atari/jaguar">
+						
+						<span class="menu__text">Jaguar</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/flash">
+				
+				<span class="menu__text">Flash</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/microsoft">
+				
+				<span class="menu__text">Microsoft</span>
+				<label class="drop-icon" for="Microsoft">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Microsoft">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/microsoft/xbox-360">
+						
+						<span class="menu__text">XBOX 360</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/nec">
+				
+				<span class="menu__text">NEC</span>
+				<label class="drop-icon" for="NEC">▾</label>
+				
+			</a>
+			<input type="checkbox" id="NEC">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nec/pc-98">
+						
+						<span class="menu__text">PC-98</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/nintendo">
+				
+				<span class="menu__text">Nintendo</span>
+				<label class="drop-icon" for="Nintendo">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Nintendo">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nintendo/switch">
+						
+						<span class="menu__text">Switch</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nintendo/wii">
+						
+						<span class="menu__text">Wii</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/pc">
+				
+				<span class="menu__text">PC</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/philips">
+				
+				<span class="menu__text">Philips</span>
+				<label class="drop-icon" for="Philips">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Philips">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/philips/cd-i">
+						
+						<span class="menu__text">CD-i</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/sega">
+				
+				<span class="menu__text">Sega</span>
+				<label class="drop-icon" for="Sega">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Sega">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sega/dreamcast">
+						
+						<span class="menu__text">Dreamcast</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/sony">
+				
+				<span class="menu__text">Sony</span>
+				<label class="drop-icon" for="Sony">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Sony">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps1">
+						
+						<span class="menu__text">PS1</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps2">
+						
+						<span class="menu__text">PS2</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps3">
+						
+						<span class="menu__text">PS3</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps4">
+						
+						<span class="menu__text">PS4</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps-vr">
+						
+						<span class="menu__text">PS VR</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/psp">
+						
+						<span class="menu__text">PSP</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/vita">
+						
+						<span class="menu__text">Vita</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+			</ul>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pages/edito/">
+				
+				<span class="menu__text">Édito</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Castlevania [NES]</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2013-09-05T14:24:29Z">05/09/2013</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/action/" rel="category">Action</a>
+	</span>
+</div><div class="meta__item-tags meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/relu/" rel="tag">Relu</a>
+	</span>
+</div></div>
+		</header>
+			
+			
+			<div class="content post__content clearfix">
+			<p>Si vous vous intéressez un tant soit peu au secteur vidéoludique il semble quasiment impossible que vous ne connaissiez pas <em>Castlevania</em>, série phare de Konami qui a traversé les âges jusqu&rsquo;à devenir un emblème du jeu vidéo. La saga prend ses racines en 1986 sur NES et MSX2 sous le nom de <em>Akumajō Dracula</em>, qui sera renommé <em>Castlevania</em> sur la console de Nintendo une fois arrivé chez nous.</p>
+<figure><img src="attachment203.jpg"/>
+</figure>
+
+<p>Quelques mots sur la version MSX2 me semblent nécessaires avant de commencer. Si la version NES a changé de nom lors de son importation il en est de même pour la version MSX2 qui ne se fait pas appeler <em>Castlevania</em> dans nos contrées, comme on aurait pu le penser, mais répond au doux nom de <em>Vampire Killer</em>. Cette distinction est parfaitement appropriée car si les deux jeux possèdent plus ou moins les mêmes musiques, ennemis, histoire&hellip; ils ne se jouent pas exactement de la même façon.
+Pour faire simple, <em>Castlevania</em> suit une progression linéaire et est plus centré sur l&rsquo;action alors que <em>Vampire Killer</em> prend part dans de vastes niveaux et laisse la part belle à l&rsquo;exploration. Il est amusant de constater qu&rsquo;on peut déjà prévoir le changement de direction qui touchera plus tard la série, <em>Castlevania</em> se rapprochant plus des épisodes classiques alors que <em>Vampire Killer</em> ressemble davantage à ce qui se fait aujourd&rsquo;hui.
+Pour les plus curieux voici le <a href="http://www.youtube.com/watch?v=d54A5MKLKU4">premier niveau de Castlevania</a> et <a href="http://www.youtube.com/watch?v=86sHwvMUCNQ">celui de Vampire Killer</a>.</p>
+<p><figure><img src="attachment204.jpg"/>
+</figure>
+
+<figure><img src="attachment205.png"/>
+</figure>
+</p>
+<p><em>À gauche Castlevania (NES), à droite Vampire Killer (MSX2)</em></p>
+<p>Mais venons-en à l&rsquo;histoire du jeu qui constitue le point de départ de la série.
+Le jeu prend part en 1691 lorsque le comte Dracula ressuscite, dans son château, en Transylvanie. Simon Belmont, le non moins fameux chasseur de vampires, est informé de la réapparition du roi des vampires à cause des méfaits actuels de ce dernier. Simon, armé de son fouet Vampire Killer se met en route pour mettre en péril les sombres projets du comte.</p>
+<p>Nous n&rsquo;avons donc pas affaire ici à une adaptation des films de Dracula, dont Simon aurait pu faire penser à une version lointaine de Van Helsing, et encore moins des écrits de Stoker. On se rend compte en étudiant le bestiaire ou les quelques références humoristiques disséminées dans le générique de fin que l&rsquo;univers de <em>Castlevania</em> représente un savant mélange de tout ce qui a pu se faire en matière d&rsquo;horreur et d&rsquo;épouvante.</p>
+<p><figure><img src="attachment206.jpg"/>
+</figure>
+
+<figure><img src="attachment207.png"/>
+</figure>
+</p>
+<p><em>Image gauche : L&rsquo;intro culte du jeu</em></p>
+<p>C&rsquo;est dans ce contexte que vous prenez part à l&rsquo;aventure <em>Castlevania</em>. Celle-ci vous fait incarner Simon Belmont dans un jeu d&rsquo;action/plates-formes.</p>
+<p>Une des premières choses à aborder dans le gameplay, c&rsquo;est cette rigidité, caractéristique des premiers épisodes de la série, propre aux déplacements du personnage. Une fois que le personnage décolle les pieds du sol il est impossible de le contrôler. Il est donc impossible de doser son saut ni même de changer sa position d’atterrissage une fois en l&rsquo;air, comme on pourrait le faire dans un <em>Super Mario</em>. Mais cette dernière constante pourrait être définie comme une contrainte imposée et on arrive à s&rsquo;en accommoder. Le réel problème vient du saut arrière (ou rebond) que fait le personnage lorsqu&rsquo;il heurte un ennemi, celui-ci est également incontrôlable et fatal lorsque pratiqué près du vide, indépendamment de l&rsquo;état actuel de la barre de vie du joueur, ce qui provoque un nombre important de morts quasi-injustifiées.
+On pourrait aussi se plaindre de la vulnérabilité du personnage lorsqu&rsquo;il utilise des escaliers, mais cela semble être aussi du domaine de la contrainte imposée étant donné que le joueur peut continuer à attaquer lors de cette étape transitive.</p>
+<p><figure><img src="attachment208.png"/>
+</figure>
+
+<figure><img src="attachment209.png"/>
+</figure>
+</p>
+<p>Pour vous aider à accomplir votre quête vous pourrez récupérer des objets cachés dans les chandeliers du château (ce qui est également une des caractéristiques propre à la série), ou dans des endroits cachés, ceux-ci sont de différentes natures :</p>
+<ul>
+<li>On trouve les traditionnels bonus de points, symbolisés par des sacs de billets. Les points sont utiles pour progresser car au bout de 30 000 vous gagnez une vie supplémentaire, mais dans l&rsquo;état il n&rsquo;est pas nécessaire tant que ça de s&rsquo;en préoccuper.</li>
+<li>Il y a également du poulet, vous redonnant un peu de vie mais ne se trouvant qu’exceptionnellement dans certains endroits cachés.</li>
+<li>Exceptionnellement, une croix peut tomber. Elle permet de nettoyer complètement l&rsquo;écran.</li>
+<li>On trouve les améliorations pour le fouet. Celui-ci constitue votre arme de base et peut s&rsquo;améliorer deux fois, la première fois il devient plus puissant et la seconde son allonge augmente considérablement, ce qui rend l&rsquo;arme agréable à manier et bien plus efficace. À chaque fois que le joueur perd, son fouet revient à l&rsquo;état initial, il doit donc se dépêcher de collecter les améliorations pour ne pas rester trop longtemps vulnérable, un peu comme dans Gradius.</li>
+</ul>
+<p><figure><img src="attachment210.png"/>
+</figure>
+
+<figure><img src="attachment211.png"/>
+</figure>
+</p>
+<p><em>Image gauche : Ces piques vous tuent dès qu&rsquo;elles vous touchent et sont très pénibles à passer, sauf si vous avez pris la montre qui se trouve juste avant !</em></p>
+<ul>
+<li>Ensuite se trouvent les différentes armes supplémentaires, le joueur ne pouvant en porter qu&rsquo;une seule à la fois. Elles sont toutes très différentes à manier et diversifient agréablement la manière de jouer. On trouve le couteau, projectile très rapide traversant l&rsquo;écran, la hache, qui ne s&rsquo;utilise qu&rsquo;avec un tir en cloche et qui est assez difficile à manier, la croix celtique s&rsquo;utilisant comme un boomerang, la fiole, embrasant le sol à son contact durant quelques secondes ou encore la montre, assez originale, qui permet d’arrêter le temps durant quelques instants.</li>
+<li>Puis il y a les cœurs, sorte d&rsquo;énergie permettant d&rsquo;utiliser les armes supplémentaires.</li>
+<li>Et enfin, deux upgrades pour les armes supplémentaires, assez rares à trouver. Elles permettent d&rsquo;utiliser plusieurs fois de suite ces dernières.</li>
+</ul>
+<p><figure><img src="attachment212.png"/>
+</figure>
+
+<figure><img src="attachment213.jpg"/>
+</figure>
+</p>
+<p><em>Image gauche : Je suis curieux, comment peut-on concevoir un ennemi aussi pénible ?</em></p>
+<p>Le bestiaire est aussi particulièrement varié, il serait très difficile d&rsquo;en faire une liste sans tomber dans l&rsquo;excès, certains ennemis ne se trouvant que dans des parties du jeu bien précises. Outre les traditionnelles chauves-souris, morts-vivants ou squelettes, on trouve des ennemis intelligemment bien pensés, comme les gorgones traversant inlassablement l&rsquo;écran en ondulant de bas en haut, les bossus, petites créatures, incroyablement pénibles, sautant dans tous les sens, ou les chevaliers fantômes, très résistants mais très lents, qui nécessitent pour le joueur d&rsquo;être attentif à son environnement pendant qu&rsquo;il les défait&hellip; Le grand nombre d&rsquo;opposants ainsi que la variété de ceux-ci nécessite constamment pour le joueur d&rsquo;adopter une stratégie différente face à eux.
+Les boss sont du même acabit, on y trouve la créature de Frankenstein, une momie, Médusa et même la mort elle-même. Le boss final est particulièrement intéressant, étant un peu long et nécessitant de trouver l&rsquo;exacte manière pour être défait.</p>
+<p>Et pour ne rien changer, les environnements sont eux aussi, diversifiés. La progression est mise en scène de façon originale par une carte qui dévoile quel tracé le joueur va suivre lors de l&rsquo;avancée dans le château. Les décors se répètent très rarement, sont assez détaillés et quelques fois plutôt jolis.
+Pour continuer sur la réalisation graphique, les animations sont correctes et les clignotements rarissimes.</p>
+<p><figure><img src="attachment214.png"/>
+</figure>
+
+<figure><img src="attachment215.png"/>
+</figure>
+</p>
+<p><em>Image gauche : La mort est tellement difficile à battre qu&rsquo;elle pourrait être inclue comme boss final dans d&rsquo;autres jeux de ce genre</em>.</p>
+<p>Pas mal de bruitages différents, se chargeant de faire vivre un peu le jeu.
+Les musiques retiennent plus l&rsquo;attention, il y en a une pour chaque niveau et il y a différents <em>boss themes</em>. Les musiques sont d’excellente facture pour la NES, il est difficile d&rsquo;éprouver un sentiment de redondance vis-à-vis de celles-ci lorsqu&rsquo;on joue (sauf lorsqu&rsquo;on perd et qu&rsquo;on recommence encore et encore).
+La musique du premier niveau &ldquo;<a href="https://www.youtube.com/watch?v=7SA_DarPYl8">Vampire Killer</a>&rdquo;, deviendra d&rsquo;ailleurs, le thème principal de la série. On trouve aussi quelques très bonnes chiptunes comme &ldquo;<a href="https://www.youtube.com/watch?v=E7PFm7mrdVY">Wicked Child (niveau 3)</a>&rdquo; ou &ldquo;<a href="https://www.youtube.com/watch?v=fA9FhBwRtoc">Heart of Fire (niveau 5)</a>&rdquo;.</p>
+<p>NES oblige, les cartouches ne pouvant contenir des jeux très longs il fallait les rendre très difficiles pour assurer une durée de vie décente. Le challenge est ici particulièrement relevé, spécialement dans les deux dernières parties du jeu, l&rsquo;avant-dernier boss étant une véritable plaie à battre. Comptez une bonne grosse journée pour venir à bout du titre, on se demande presque si il n&rsquo;aurait pas été plus judicieux de donner un password au joueur en milieu de jeu.
+Lorsque le jeu est fini, celui-ci recommence en mode difficile, puis tourne en boucle jusqu&rsquo;à plus soif. Le mode de difficulté supérieure est vraiment intéressant, celui-ci augmentant le nombre d&rsquo;ennemis et rajoutant certaines sortes d&rsquo;ennemis là où il ne devrait pas y en avoir. Le challenge y est encore augmenté et cela donne presque envie de se refaire le jeu pour redécouvrir les niveaux. Malheureusement, la seule façon d&rsquo;accéder à ce mode est de finir une fois le jeu, cette progression se perdant dès lors qu&rsquo;on éteint la console. On aurait bien aimé une manipulation spéciale, dévoilée en fin de jeu pour y accéder comme le fera plus tard <em>Kirby&rsquo;s Dream Land</em>. Pour augmenter un peu la rejouabilité vous pouvez lorgner du coté du scoring, même si la possibilité de se refaire le jeu en boucle nuit un peu à cet aspect.</p>
+<p><figure><img src="attachment216.png"/>
+</figure>
+
+<figure><img src="attachment217.png"/>
+</figure>
+</p>
+<p>Sous une ambiance gothique, Konami nous dessert le premier épisode de la série <em>Castlevania</em> qui se révèle être un jeu particulièrement solide, disposant d&rsquo;une réalisation très efficace et qui se renouvelle suffisamment pour ne jamais ennuyer le joueur. Ce dernier, pour en profiter pleinement, devra néanmoins passer outre un maniement assez singulier et non exempt de défauts ainsi qu&rsquo;une difficulté un peu excessive arrivé à un certain moment du jeu. Un très bon jeu de la NES malgré tout.</p>
+<p>Développeur : Konami
+Date de sortie : 1988
+Article publié originellement sur Gamekult le 05/09/2013</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/relu/" rel="tag">Relu</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="7bits avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">À propos 7bits</span>
+	</div>
+	<div class="authorbox__description">
+		Blabla.
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/2013/09/global-defence-force-ps2/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Précédent</span>
+			<p class="pager__title">Global Defence Force [PS2]</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/2013/09/silent-hill-ps1/" rel="next">
+			<span class="pager__subtitle">Suivant&thinsp;»</span>
+			<p class="pager__title">Silent Hill [PS1]</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="Rechercher…" value="" name="q" aria-label="Rechercher…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://7bits.fr/" />
+	</form>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Flux RSS" rel="noopener noreferrer" href="/articles/index.xml" target="_blank">
+					<svg class="widget-social__link-icon icon" width="24" height="24" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM112 416c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm157.533 0h-34.335c-6.011 0-11.051-4.636-11.442-10.634-5.214-80.05-69.243-143.92-149.123-149.123-5.997-.39-10.633-5.431-10.633-11.441v-34.335c0-6.535 5.468-11.777 11.994-11.425 110.546 5.974 198.997 94.536 204.964 204.964.352 6.526-4.89 11.994-11.425 11.994zm103.027 0h-34.334c-6.161 0-11.175-4.882-11.427-11.038-5.598-136.535-115.204-246.161-251.76-251.76C68.882 152.949 64 147.935 64 141.774V107.44c0-6.454 5.338-11.664 11.787-11.432 167.83 6.025 302.21 141.191 308.205 308.205.232 6.449-4.978 11.787-11.432 11.787z"></path></svg>
+				<span>Flux RSS</span>
+			</a>
+		</div>
+		
+	</div>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Articles récents</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2021/06/senran-kagura-peach-ball-switch/">Senran Kagura Peach Ball [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-06-27T00:00:00Z">27/06/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2021/01/super-smash-bros.-ultimate-switch/">Super Smash Bros. Ultimate [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-01-19T21:04:14Z">19/01/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/10/rayman-origins-pc/">Rayman Origins [PC]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-10-11T15:17:17Z">11/10/2020</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/09/mario-kart-8-deluxe-switch/">Mario Kart 8 Deluxe [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-09-25T17:24:33Z">25/09/2020</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/08/sayonara-wild-hearts-switch/">Sayonara Wild Hearts [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-08-30T13:40:45Z">30/08/2020</time></div></span>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-platforms widget">
+	<h4 class="widget__title">Plates-formes</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/android/">Android</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/atari/jaguar/">Atari/Jaguar</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/flash/">Flash</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/microsoft/xbox-360/">Microsoft/XBOX 360</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/3ds/">Nintendo/3DS</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gb/">Nintendo/GB</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gba/">Nintendo/GBA</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gbc/">Nintendo/GBC</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/nds/">Nintendo/NDS</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/nes/">Nintendo/NES</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/snes/">Nintendo/SNES</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/switch/">Nintendo/Switch</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wii/">Nintendo/Wii</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wii-u/">Nintendo/Wii U</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wiiware/">Nintendo/Wiiware</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/pc/">PC</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/pc-98/">PC-98</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/philips/cd-i/">Philips/CD-i</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sega/dreamcast/">Sega/Dreamcast</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps-vr/">Sony/PS VR</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps1/">Sony/PS1</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps2/">Sony/PS2</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps3/">Sony/PS3</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps4/">Sony/PS4</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/psp/">Sony/PSP</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/vita/">Sony/Vita</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Catégories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action/">Action</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action-aventure/">Action-aventure</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action-rpg/">Action-RPG</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/arcade/">Arcade</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/aventure/">Aventure</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/beatem-all/">Beat&#39;em all</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/course-arcade/">Course arcade</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/danmaku/">Danmaku</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/dessin-anime-interactif/">Dessin animé interactif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/developpement/">Développement</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/die-and-retry/">Die and retry</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/film-interactif/">Film interactif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/flipper/">Flipper</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/fps/">FPS</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/infiltration/">Infiltration</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ludo-educatif/">Ludo-éducatif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ovni/">OVNI</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/plates-formes-2d/">Plates-formes 2D</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/plates-formes-3d/">Plates-formes 3D</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/pointn-click/">Point&#39;n click</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/puzzle-game/">Puzzle game</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rail-shooter/">Rail shooter</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/reflexion/">Réflexion</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rpg/">RPG</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rpg-au-tour-par-tour/">RPG au tour par tour</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/run-and-gun/">Run and gun</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rythme/">Rythme</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/shoot-em-up-classique/">Shoot &#39;em up classique</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/survival-horror/">Survival horror</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/tps/">TPS</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/versus-fighting/">Versus fighting</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/visual-novel/">Visual novel</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/vr/">VR</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Mots-clefs</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/non-relu/" title="Non relu">Non relu (56)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/relu/" title="Relu">Relu (63)</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 7bits.
+			<span class="footer__copyright-credits">Produit par <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> et le thème <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a>.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/regsw.js"></script><script src="/js/dsqs.js"></script></body>
+</html>

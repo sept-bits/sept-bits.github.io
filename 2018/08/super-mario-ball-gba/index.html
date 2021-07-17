@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Super Mario Ball [GBA] - 7bits</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Super Mario Ball [GBA]" />
+<meta property="og:description" content="Plates-formes, course, tennis, golf, foot, party game, versus fighting, puzzle game, jeu éducatif, jeu de rythme, … Après s&rsquo;être essayé à quasiment toutes les formes de jeux vidéo, Mario devient la star d&rsquo;un jeu de flipper dans Super Mario Ball (Mario Pinball Land en Amérique)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://7bits.fr/2018/08/super-mario-ball-gba/" /><meta property="og:image" content="https://7bits.fr/2018/08/super-mario-ball-gba/Super-Mario-Ball-Cover.jpg"/><meta property="article:section" content="articles" />
+<meta property="article:published_time" content="2018-08-07T14:34:41&#43;00:00" />
+<meta property="article:modified_time" content="2018-08-07T14:34:41&#43;00:00" />
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="7bits" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo.svg">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">7bits</div>
+					
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				
+				<span class="menu__text">Accueil</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/dev">
+				
+				<span class="menu__text">Développement</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms">
+				
+				<span class="menu__text">Supports</span>
+				
+			</a>
+		</li>
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/categories">
+				
+				<span class="menu__text">Genres</span>
+				<label class="drop-icon" for="Genres">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Genres">
+			<ul class="submenu__list">
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/android">
+				
+				<span class="menu__text">Android</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/atari">
+				
+				<span class="menu__text">Atari</span>
+				<label class="drop-icon" for="Atari">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Atari">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/atari/jaguar">
+						
+						<span class="menu__text">Jaguar</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/flash">
+				
+				<span class="menu__text">Flash</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/microsoft">
+				
+				<span class="menu__text">Microsoft</span>
+				<label class="drop-icon" for="Microsoft">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Microsoft">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/microsoft/xbox-360">
+						
+						<span class="menu__text">XBOX 360</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/nec">
+				
+				<span class="menu__text">NEC</span>
+				<label class="drop-icon" for="NEC">▾</label>
+				
+			</a>
+			<input type="checkbox" id="NEC">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nec/pc-98">
+						
+						<span class="menu__text">PC-98</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/nintendo">
+				
+				<span class="menu__text">Nintendo</span>
+				<label class="drop-icon" for="Nintendo">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Nintendo">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nintendo/switch">
+						
+						<span class="menu__text">Switch</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/nintendo/wii">
+						
+						<span class="menu__text">Wii</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item">
+			<a class="menu__link" href="/platforms/pc">
+				
+				<span class="menu__text">PC</span>
+				
+			</a>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/philips">
+				
+				<span class="menu__text">Philips</span>
+				<label class="drop-icon" for="Philips">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Philips">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/philips/cd-i">
+						
+						<span class="menu__text">CD-i</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/sega">
+				
+				<span class="menu__text">Sega</span>
+				<label class="drop-icon" for="Sega">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Sega">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sega/dreamcast">
+						
+						<span class="menu__text">Dreamcast</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+		<li class="menu__item menu__dropdown">
+			<a class="menu__link" href="/platforms/sony">
+				
+				<span class="menu__text">Sony</span>
+				<label class="drop-icon" for="Sony">▾</label>
+				
+			</a>
+			<input type="checkbox" id="Sony">
+			<ul class="submenu__list subsubmenu__list">
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps1">
+						
+						<span class="menu__text">PS1</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps2">
+						
+						<span class="menu__text">PS2</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps3">
+						
+						<span class="menu__text">PS3</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps4">
+						
+						<span class="menu__text">PS4</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/ps-vr">
+						
+						<span class="menu__text">PS VR</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/psp">
+						
+						<span class="menu__text">PSP</span>
+						
+					</a>
+					</li>
+				
+					<li class="menu__item">
+					<a class="menu__link" href="/platforms/sony/vita">
+						
+						<span class="menu__text">Vita</span>
+						
+					</a>
+					</li>
+				
+			</ul>
+		</li>
+		
+
+
+					
+				
+			</ul>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pages/edito/">
+				
+				<span class="menu__text">Édito</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Super Mario Ball [GBA]</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2018-08-07T14:34:41Z">07/08/2018</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/flipper/" rel="category">Flipper</a>
+	</span>
+</div><div class="meta__item-tags meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/non-relu/" rel="tag">Non relu</a>
+	</span>
+</div></div>
+		</header>
+			
+			
+			<div class="content post__content clearfix">
+			<p>Plates-formes, course, tennis, golf, foot, party game, versus fighting, puzzle game, jeu éducatif, jeu de rythme, … Après s&rsquo;être essayé à quasiment toutes les formes de jeux vidéo, Mario devient la star d&rsquo;un jeu de flipper dans Super Mario Ball (Mario Pinball Land en Amérique). Au programme, un jeu décevant qui ne cessera de vous mettre en boule.</p>
+<figure><img src="Super-Mario-Ball-Cover.jpg"/>
+</figure>
+
+<p><figure><img src="Super-Mario-Ball-01.png"/>
+</figure>
+
+On retrouve nos amis en train faire la queue pour une étrange attraction : une machine écrase et comprime un Toad qui est violemment envoyé contre une cible, ce qui n&rsquo;a pas l&rsquo;air de lui déplaire&hellip; Les habitants du royaume Champignon ont vraiment de drôle de façon de se divertir. Enfin bref, c&rsquo;est le tour de la princesse Peach, c&rsquo;était sans compter l&rsquo;intervention de deux Goombas détournant la machine pour qu&rsquo;elle se retrouve projetée dans le château de Bowser, Mario décide d&rsquo;aller la sauver.
+Cette courte et très très cheap cutscene d&rsquo;introduction a le mérite de planter efficacement le décor.</p>
+<p><figure><img src="Super-Mario-Ball-24.png"/>
+</figure>
+
+<strong>Le jeu se démarque beaucoup des autres jeux de flippers par son originalité.</strong>
+Il compte 5 mondes pour autant de flippers différents. Chaque monde est divisé en une multitude d&rsquo;écrans verticalement, énormément plus que dans les autres jeux de flippers. Et quasiment chaque écran compte un petit défi à réaliser qui vous récompensent d&rsquo;une étoile si vous le réussissez. En collectant assez d&rsquo;étoiles vous pourrez affronter le boss du monde correspondant.
+Donc ce n&rsquo;est pas que la structure des niveaux qui est originale il s&rsquo;agit aussi de l&rsquo;objectif du jeu, ici il ne s&rsquo;agit pas de récolter le plus de points comme dans la plupart des jeux de flipper mais de récolter des pièces, d&rsquo;obtenir toutes les étoiles, de battre les boss, … Exactement comme dans un jeu Mario en fait.</p>
+<p><figure><img src="Super-Mario-Ball-36.png"/>
+</figure>
+
+Pour en revenir aux <strong>défis</strong>, même s&rsquo;ils consistent souvent à tuer tous les ennemis à l&rsquo;écran, ils peuvent être mis en scène de façons très originales, quelques bons exemples : dans un écran 4 maskass de couleurs différentes patinent sur la glace, à chaque fois que vous en tué un, un autre apparaît d&rsquo;une couleur différente, pour avoir l&rsquo;étoile, il faut que les maskass soient de la même couleur ; <a href="https://7bits.nomistation.fr/wp-content/gallery/super-mario-ball-gba/Super-Mario-Ball-10.png">dans un défi</a>, des serpents sortent chacun à leur tour de jarres situées aux 4 coins de la pièce, si l&rsquo;un d&rsquo;eux arrive au trou placé au centre de la pièce, le joueur perd et doit recommencer, s&rsquo;il arrive à défaire toutes les vagues de serpent il gagne l&rsquo;étoile ; <a href="https://7bits.nomistation.fr/wp-content/gallery/super-mario-ball-gba/Super-Mario-Ball-09.png">dans un autre écran</a>, on trouve une pyramide enterrée et des vautours qui volent autour, si le joueur touche les statues situées aux deux coins supérieurs de l&rsquo;écran, la pyramide va progressivement sortir du sol ce qui va permettre de continuer à l&rsquo;intérieur, cependant si le joueur envoie la bille sur la pyramide, elle peut alors servir de tremplin pour tuer les oiseaux qui volent autour et récolter une étoile.
+À noter qu'<strong>en récoltant des pièces bleues</strong> (pièces qui s&rsquo;obtiennent lorsque la balle tue plusieurs ennemis à la suite en faisant des rebonds) il est possible de jouer à des <strong>mini-jeux</strong> permettant de gagner des étoiles.</p>
+<p><figure><img src="Super-Mario-Ball-11.png"/>
+</figure>
+
+La petite particularité de gameplay du jeu, ce sont les <strong>objets</strong>. En effet, en ayant assez de pièce vous pourrez acheter un objet que vous pourrez utiliser à n&rsquo;importe quel moment en appuyant sur B. On retrouve : le champignon augmentant la taille de la balle, le mini-champi permettant à contrario de rétrécir et de se glisser dans des endroits inaccessibles autrement, l&rsquo;éclair qui tue tous les ennemis à l&rsquo;écran, la multiball ou le tuyau qui permet de bloquer temporairement le bas du flipper pour que la balle ne tombe pas.
+<strong>L&rsquo;univers de Mario se retrouve aussi dans le bestiaire</strong> comme avec les boos qui se rendent invincibles lorsque la bille leur fait face, avec les pingouins de Mario 64 qui tombent et glissent sur la glace une fois touché (c&rsquo;est le seul moment où ils sont vulnérables) ou avec les Pokeys dont il faut défaire chaque partie pour en venir à bout. Les mécaniques de ces ennemis apportent beaucoup au jeu.</p>
+<p><figure><img src="Super-Mario-Ball-03.png"/>
+</figure>
+
+En dehors des rarissimes cutscenes <strong>le jeu est vraiment beau</strong> malgré l&rsquo;utilisation de la 3D précalculé qu&rsquo;on ne remarque même pas (à titre de comparaison elle a vraiment mal vieilli dans <a href="https://7bits.nomistation.fr/5646/mario-vs-donkey-kong-gba/">Mario Vs Donkey Kong</a> sur la même console). Le jeu est très coloré et les écrans sont très différents les uns des autres tant au niveau des situations, du level-design que juste visuellement.
+<strong>Les musiques sont vraiment très bonnes</strong> et ont l&rsquo;avantage de n&rsquo;être pas des remixes d&rsquo;autres thèmes de Mario ce qui est vraiment très rare dans les jeux où il figure. Quelques bons exemples : <a href="https://youtu.be/1ptU2GPqekU">Grass Area</a>, <a href="https://youtu.be/1TUxHrfD-nQ">Snowy</a>, <a href="https://youtu.be/4DpJnbnGhoY">Under the Ice</a> (musique qui ne joue que sur un seul écran du jeu et qui donne le seul moment relaxant du jeu), <a href="https://youtu.be/pKUlVEfZdX8">Sandy</a>. On trouve également les thèmes de boss qui sont tous de très bonnes variations d&rsquo;un même thèmes (oui oui c&rsquo;est possible)  : <a href="https://youtu.be/GP8THM-lKXk">Cheep Cheep Pufferfish Battle</a>, <a href="https://youtu.be/hEvqThXgJ48">Petey Piranha Battle</a>, <a href="https://youtu.be/0gC642CS4BE">Tutankoopa</a>. Bien sûr on n&rsquo;oubliera pas le très bon <a href="https://youtu.be/5aqij0Dl72k">thème de Bowser</a>.</p>
+<p>Voilà tout le bien que je peux dire du jeu maintenant il va falloir que j&rsquo;en dise du mal. Oui car <strong>le jeu possède de gros problèmes de maniabilité et de game design</strong>, choses totalement rédhibitoires pour un jeu de flipper.
+Le gros problème du jeu c&rsquo;est qu&rsquo;on meurt tout le temps. Enfin non, on échoue tout le temps, car c&rsquo;est bien là le problème, les vies ne servent à rien du tout. Pour perdre une vie, il faut que la balle tombe tout en bas du flipper, c&rsquo;est-à-dire dans l&rsquo;écran le plus bas du monde en cours, ce qui n&rsquo;arrive jamais et ce qui, au passage, rend totalement caduc le système de score instauré par les développeurs tant il est facile de scorer de façon infinie en restant dans les écrans les plus supérieurs.</p>
+<p><figure><img src="Super-Mario-Ball-25.png"/>
+</figure>
+
+<figure><img src="Super-Mario-Ball-34.png"/>
+</figure>
+</p>
+<p>Je pense que le problème vient de beaucoup de choses à la fois : les terrains qui sont très larges au lieu d&rsquo;être resserrés comme dans la plupart des flippers; la présence des ennemis qui peuvent aller jusque jusqu&rsquo;au bas de l&rsquo;écran dans certains cas ; le fait qu&rsquo;on manque les slingshots et d&rsquo;autres éléments de flipper qui pourrait nous aider ; la balle qui va peut-être trop vite ; les défis qui durent trop longtemps, &hellip;
+Bref, les raisons sont multiples mais <strong>le fait est qu&rsquo;on perd constamment la balle pour des raisons à la con</strong>. Et lorsque Mario tombe juste une fois de l&rsquo;écran du défi en cours, on doit le ramener dans l&rsquo;écran où on était (ce qui est loin d&rsquo;être facile) et on doit recommencer le défi du début.
+J&rsquo;adore les Die &amp; retry mais ici nous ne sommes pas en face d&rsquo;un bon D&amp;R; qui fasse appel à l&rsquo;analyse, la réflexion et la mémorisation, <strong>nous sommes en face d&rsquo;un D&amp;R; de la pire espèce, ceux qui font appel à la chance</strong>.</p>
+<p>Mais des problèmes dans ce jeu, il y en a la pelle. Commençons par le plus gros à savoir que <strong>Super Mario Ball possède le pire système de sauvegarde au monde</strong>.
+Lorsque vous sauvegardez dans ce jeu, le jeu enregistre et vous fait retourner à l&rsquo;écran titre, jusque-là c&rsquo;est très bien. MAIS, pour éviter que vous trichiez avec le score (score qui, je vous le rappelle, ne sert à rien) lorsque vous chargez votre partie, le jeu vous ramène là où vous étiez et efface votre sauvegarde, ce qui veut dire que si la console s&rsquo;éteint en cours de jeu, votre partie est perdu à jamais.
+Je rappelle juste que nous sommes sur une console portable et que par définition la batterie est susceptible de lâcher à n&rsquo;importe quel moment lors des transports. <strong>Je ne vous raconte même pas comment durant tout le jeu j&rsquo;ai été stressé par la peur de perdre ma partie</strong> à cause d&rsquo;un bug, d&rsquo;une perte de batterie ou juste par le fait d&rsquo;allumer ma console en me rendant compte que j&rsquo;avais oublié de sauvegarder, c&rsquo;était horrible.</p>
+<p><figure><img src="Super-Mario-Ball-17.png"/>
+</figure>
+
+Continuons avec le <strong>multiball</strong>, dans la plupart des jeux de flipper ou de casse-brique, ce bonus permet de rajouter d&rsquo;autres balles en jeu et c&rsquo;est lorsque la dernière balle est tombée que le joueur perd la partie.
+Dans Super Mario Ball, les multiballs rajoutent des œufs de Yoshi sur le terrain et non des balles Mario, la différence est loin d&rsquo;être esthétique puisque si vous perdez un œuf de Yoshi vous continuez la partie mais si jamais vous perdez votre balle de Mario et, même si vous aviez plusieurs œufs de Yoshi encore sur le terrain, vous redescendez d&rsquo;un écran et vous devez recommencer le défi depuis le début. En sachant que les œufs de Yoshi ont tendance à taper dans votre balle Mario et donc à augmenter les chances de vous faire perdre cette balle, <strong>l&rsquo;utilisation de ce bonus est suicidaire 95% du temps</strong>.</p>
+<p><figure><img src="Super-Mario-Ball-04.png"/>
+</figure>
+
+Une des choses qui rend très problématique le fait de faire remonter la balle, ce sont <strong>les portes</strong>. En effet, très souvent les entrées qui conduisent aux différents écrans sont condamnées par des portes, pour les ouvrir il suffit d&rsquo;envoyer la balle dessus. Et comme si ça n&rsquo;était pas assez difficile d&rsquo;envoyer la balle deux fois vers l&rsquo;entrée de l&rsquo;écran que l&rsquo;on veut atteindre, sachez que lorsque vous ouvrez toutes les portes d&rsquo;un écran, celles-ci se referment toutes en même temps ! <strong>Une brillante idée de Game design qui donne autant de challenge qu&rsquo;elle ne renforce l&rsquo;envie de sortir brutalement la cartouche de la console pour s&rsquo;acharner dessus à coup de maillet.</strong></p>
+<p><strong>Pour continuer de parler des défauts du jeu, nous allons devoir nous attarder sur la progression.</strong>
+Pour accéder au dernier monde et pouvoir battre Bowser, il vous faudra récolter assez d&rsquo;étoiles et battre les 4 boss des 4 mondes principaux. C&rsquo;est assez dur et très frustrant mais bon, ça « peut aller » si vous êtes très patient, ça se complique par la suite.</p>
+<p><figure><img src="Super-Mario-Ball-43.png"/>
+</figure>
+
+<strong>L&rsquo;affrontement contre Bowser</strong> est ce que j&rsquo;ai pu voir de plus dur dans n&rsquo;importe quel jeu Mario et il résume parfaitement le jeu pour moi.
+Il faut faire en sorte que la balle tourne plusieurs fois autour de la pièce en la frappant avec le bout d&rsquo;un des flippers pour faire monter des Thwomps en haut de la pièce. Puis il faut envoyer la balle sur un interrupteur qui fera tomber le(s) Thwomp(s) et paralysera Bowser (pendant plus ou moins longtemps selon le nombre de Thwomp), il faudra alors toucher Bowser avant qu&rsquo;il ne se relève pour lui infliger des dégâts. Pendant ce temps, Bowser sautera sur place aléatoirement ce qui paralysera les flippers un moment, il faudra user de stratégie en bloquant les flippers vers le haut juste avant qu&rsquo;il fasse ça.
+Faites ça trois fois et Bowser se transformera alors en bille géante qu&rsquo;il faudra envoyer plusieurs fois contre le mur pour casser le mur et envoyer l&rsquo;affreux voler à l&rsquo;autre bout du royaume Champignon.
+L&rsquo;affrontement est donc génial en matière d&rsquo;idées mais il est d&rsquo;une difficulté et d&rsquo;une frustration juste incroyables. En fait, le jeu est dur mais il est d&rsquo;une difficulté plutôt progressive, quand on atteint Bowser le jeu atteint un énorme pic de difficulté, <strong>c&rsquo;est le genre de boss final où vous allez passer plus de temps sur l&rsquo;affrontement que vous n&rsquo;en avez passé sur tout le reste du jeu</strong> (si l&rsquo;on en croit <a href="https://www.youtube.com/watch?v=NxqcoZVkTzg">cette vidéo YouTube</a> un gars aurait passé 13 heures dessus avant d&rsquo;abandonner).
+Après avoir fini le jeu, on obtient la plus pauvre cutscene que j&rsquo;ai pu voir dans un Mario et on a un écran avec un Mario et une Peach mal découpés faisant de l&rsquo;avion, un ciel menaçant et <a href="https://7bits.nomistation.fr/wp-content/gallery/super-mario-ball-gba/Super-Mario-Ball-47.png">le message « THE END ? »</a>, on nous tease une bonne fin. <strong>Il est temps d&rsquo;essayer de finir le jeu à 100% pour voir jusqu&rsquo;où l&rsquo;horreur peut aller dans ce jeu</strong>, nous ne sommes pas au bout de nos peines.</p>
+<!-- raw HTML omitted -->
+<p><figure><img src="Super-Mario-Ball-38.png"/>
+</figure>
+
+En débloquant le dernier niveau, on débloque aussi <strong>les défis de pièces rouges</strong>. Une fois qu&rsquo;un de ces défis est activé, des pièces rouges sont disséminées dans différents écrans du monde en cours, vous devez parcourir tous ces écrans et ramasser toutes les pièces en temps limité pour avoir l&rsquo;étoile.
+Il y a un défaut (encore un) que je n&rsquo;ai pas évoqué c&rsquo;est que lorsque vous complétez un défi, vous n&rsquo;obtenez pas l&rsquo;étoile immédiatement, celle-ci tombe du ciel et il faut encore la toucher avec la bille pour compléter le défi et obtenir l&rsquo;étoile. <strong>Inutile de dire que si vous perdez à ce moment, vous devez recommencer le défi même si vous l&rsquo;aviez déjà réussi</strong>. Le petit bonus avec les pièces rouges c&rsquo;est que l&rsquo;étoile ne se place pas au centre de l&rsquo;écran comme d&rsquo;habitude, <a href="https://7bits.nomistation.fr/wp-content/gallery/super-mario-ball-gba/Super-Mario-Ball-39.png">elle tombe à l&rsquo;endroit où la dernière pièce rouge a été prise</a> soit dans l&rsquo;endroit le plus inaccessible possible.
+Et je peux vous dire une chose c&rsquo;est que lorsque vous avez réussi un défi pièce rouge, vous n&rsquo;avez aucune envie de le recommencer. Le faire une fois pourquoi pas ? C&rsquo;est dur mais c&rsquo;est original. Mais les développeurs n&rsquo;étaient pas du même avis puisqu&rsquo;il faut au moins compléter le défi 4 fois (une fois par monde) pour avoir toutes les étoiles.</p>
+<p><figure><img src="Super-Mario-Ball-40.png"/>
+</figure>
+
+<strong>Le pire vient des étoiles du dernier monde qui s&rsquo;obtiennent en battant une seconde fois les 4 boss principaux.</strong> Cette fois-ci les affrontements sont plus durs puisqu&rsquo;il faut affronter des ennemis avant d&rsquo;accéder au boss et que l&rsquo;entrée pour accéder à l&rsquo;écran à chaque fois qu&rsquo;on veut recommencer le défi est beaucoup plus difficile à accéder. Sérieusement, à quel moment les développeurs se sont dit qu&rsquo;il serait fun de réaffronter tous les boss ? D&rsquo;habitude, je n&rsquo;ai pas grand-chose contre les pots-pourris de boss mais là, si je n&rsquo;avais pas découvert à ce stade du jeu qu&rsquo;on pouvait avoir des doubles objets, je me serais suicidé devant la difficulté extrême alliée au cruel manque d&rsquo;originalité.</p>
+<p><strong>Enfin le jeu atteint son pic de médiocrité avec les 100%.</strong>
+Une fois le boss final battu et toutes les étoiles récoltées on débloque la dernière pièce du dernier monde où se trouve une salle Yoshi (ces salles servent à gagner des points avec un mini-jeu où il faut envoyer des œufs de Yoshi sur une tour). Une fois le défi complété et l&rsquo;oeuf de Yoshi d&rsquo;or obtenu, on est récompensé avec un ridicule bonus de 10 millions et tellement de pièces qu&rsquo;on finit avec 999 pièces, il doit bien falloir une minute de pause pour que tout soit comptabilisé !
+Et ensuite Mario s&rsquo;envole et on a un écran disant &ldquo;bravo tu as récolté toutes les étoiles&rdquo;.
+Puis on comprends pas, il y a un mini-jeu bonus où l&rsquo;on doit envoyer des bombes dans un canon et ensuite tirer sur une cible ce qui fait à chaque fois gagner des bonus ridicules de 100 000 points, ça sort de nul part, c&rsquo;est complètement WTF.
+Et ensuite on a le bon écran de fin avec le ciel qui a la bonne couleur et le &ldquo;THE END&rdquo; sans le point d&rsquo;interrogation.
+On a l&rsquo;écran des scores puis on renvoie le joueur à l&rsquo;écran titre.</p>
+<p>Si vous avez suivi ce que j&rsquo;ai dit, étant donné que le jeu a été quitté sans avoir été sauvegardé, ce que je redoutais depuis le début est arrivé. <strong>Ma partie et tout ce que j&rsquo;ai fait a été effacée.</strong></p>
+<p><figure><img src="Super-Mario-Ball-01.jpg"/>
+</figure>
+
+<figure><img src="Super-Mario-Ball-02.jpg"/>
+</figure>
+</p>
+<p>Ces deux photos que j&rsquo;ai eu la chance de prendre juste avant le moment fatidique sont tout ce qui reste de ma partie.
+La fin était tellement WTF, violente et rapide que j&rsquo;ai l&rsquo;impression d&rsquo;avoir été violé.</p>
+<p>Si vous vous demandez pourquoi le jeu a fait ça je pense avoir une explication :
+<blockquote class="spoiler">
+<label for="spoiler-15" class="btn">Spoiler</label><input class="spoiler-checkbox" id="spoiler-15" type="checkbox"/>
+<div class="spoiler-text">
+<br/>
+Les développeurs ont donné beaucoup d'efforts pour que le jeu soit orienté scoring, ça se ressent quand on joue et je pense qu'ils considéraient que le jeu devait être joué comme une longue partie où on scorait continuellement (ce qui explique qu'ils ne veulent pas qu'on triche autant en mettant des sauvegardes manuelles totalement débiles). Lorsqu'on a battu Bowser, il n'est pas possible de le réaffronter et lorsqu'on a récolté le(s) oeufs de Yoshi d'or, on ne peut pas les réavoir alors que c'est ce qui donne le plus de points dans le jeu.
+Donc admettons qu'on joue pour le score et qu'on ait eu 100%, si jamais on continuait le jeu et qu'on avait un Game over le score retournerait à 0 sans qu'il soit possible de réaffronter Bowser ou d'obtenir les oeufs de Yoshi d'or, dans ce cas-là il faudrait mieux recommencer une partie pour se donner la chance d'obtenir le score maximum.
+Et je pense que c'est dans cette optique-là que les développeurs ne nous laissent pas continuer et effacent la partie en gardant le meilleur score lorsque les 100% ont été obtenu.
+
+Sauf que malgré leurs intentions le système de scoring ne marche pas car il est trop facilement détournable et qu'on est surtout intéressé par notre progression, garder nos étoiles, les mondes qu'on a débloqués, les salles vides comme preuve qu'on a battu les boss et récolter les pièces rouges est vraiment ce qui compte pour le joueur.
+<div>
+</blockquote>
+Les développeurs n&rsquo;ont pas compris le propre jeu qu&rsquo;ils avaient crées ce qui explique beaucoup de ses défauts.</p>
+<figure><img src="Super-Mario-Bros-Forever-Frustration.jpg"/>
+</figure>
+
+<p><em>Cette jaquette cheapos d&rsquo;un hack de Super Mario Bros. exprime parfaitement l&rsquo;état dans lequel j&rsquo;étais lorsque j&rsquo;ai fini le jeu à 100%.</em></p>
+<p>**Conclusion : **au départ, Super Mario Ball apparaît juste comme un jeu de flipper très original, varié, possédant de beaux graphismes, de bonnes musiques et ayant réussi à vraiment bien intégrer l&rsquo;univers de Mario. Puis après quelques minutes de jeu, on commence à voir les gros problèmes de maniabilité et de game design dont font preuve le jeu. C&rsquo;est déjà très largement suffisant pour en faire un mauvais jeu de flipper mais ça ne s&rsquo;arrête pas là, les défauts du jeu ne font que se multiplier par la suite jusqu&rsquo;à exploser à la fin du jeu, ce désastre ayant été rendu possible par le fait que les développeurs n&rsquo;avaient pas compris le jeu qu&rsquo;ils étaient en train de développer. Durant le jeu, on fait face constamment à la peur et au stress à cause du pire système de sauvegarde possible, on fait face à une difficulté incroyable avec zéro challenge car le jeu est un pur Die &amp; retry de la chance et on fait face à une montagne de frustration tant il est facile de perdre pour des raisons à la con et tant la mort est pénalisante.
+D&rsquo;un côté, je dois admettre que c&rsquo;est un jeu qui a des qualités, qui est original et je pense que le plus important pour une œuvre est de ne pas nous laisser indifférent donc je lui laisse au moins ça mais d&rsquo;un autre côté, j&rsquo;ai écrit plus d&rsquo;une centaine de tests et je me rends compte qu&rsquo;il s&rsquo;agit de loin du plus mauvais jeu que j&rsquo;ai testé (<a href="https://7bits.nomistation.fr/44/nestor-chapo-detective-laffaire-de-loeuf-magique-pc/">Nestor Chapo</a> n&rsquo;est pas loin).
+Je le recommande par curiosité, ça peut valoir le coup d&rsquo;oeil, mais ne comptez pas y jouer sérieusement. Si vous cherchez un jeu de flipper sur GBA je vous recommande le très bon Pokémon Pinball Ruby &amp; Saphir, ou bien le premier opus sur Game Boy, ou bien Revenge of the Gator ou bien n&rsquo;importe quels autres jeux de flippers sur les deux consoles, ça sera toujours mieux que ce jeu.
+**Les suites : **fort heureusement Super Mario Ball n&rsquo;a jamais connu de suites, cependant la petite équipe britannique derrière le jeu (seulement 5 personnes ! Ça explique beaucoup de choses&hellip;) a développé un second jeu dans sa courte carrière : Metroid Prime Pinball sur DS. Selon les critiques le jeu serait plutôt bon donc au moins quelque chose de positif est ressorti de Mario Ball.</p>
+<p>Développeur : Fuse Games
+Date de sortie : 2004</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/non-relu/" rel="tag">Non relu</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="7bits avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">À propos 7bits</span>
+	</div>
+	<div class="authorbox__description">
+		Blabla.
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/2018/07/puella-magi-madoka-magica-the-battle-pentagram-vita/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Précédent</span>
+			<p class="pager__title">Puella Magi Madoka Magica The Battle Pentagram [Vita]</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/2018/09/touhou-6-the-embodiment-of-scarlet-devil-pc/" rel="next">
+			<span class="pager__subtitle">Suivant&thinsp;»</span>
+			<p class="pager__title">Touhou 6 The Embodiment of Scarlet Devil [PC]</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="Rechercher…" value="" name="q" aria-label="Rechercher…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://7bits.fr/" />
+	</form>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Flux RSS" rel="noopener noreferrer" href="/articles/index.xml" target="_blank">
+					<svg class="widget-social__link-icon icon" width="24" height="24" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM112 416c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm157.533 0h-34.335c-6.011 0-11.051-4.636-11.442-10.634-5.214-80.05-69.243-143.92-149.123-149.123-5.997-.39-10.633-5.431-10.633-11.441v-34.335c0-6.535 5.468-11.777 11.994-11.425 110.546 5.974 198.997 94.536 204.964 204.964.352 6.526-4.89 11.994-11.425 11.994zm103.027 0h-34.334c-6.161 0-11.175-4.882-11.427-11.038-5.598-136.535-115.204-246.161-251.76-251.76C68.882 152.949 64 147.935 64 141.774V107.44c0-6.454 5.338-11.664 11.787-11.432 167.83 6.025 302.21 141.191 308.205 308.205.232 6.449-4.978 11.787-11.432 11.787z"></path></svg>
+				<span>Flux RSS</span>
+			</a>
+		</div>
+		
+	</div>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Articles récents</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2021/06/senran-kagura-peach-ball-switch/">Senran Kagura Peach Ball [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-06-27T00:00:00Z">27/06/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2021/01/super-smash-bros.-ultimate-switch/">Super Smash Bros. Ultimate [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-01-19T21:04:14Z">19/01/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/10/rayman-origins-pc/">Rayman Origins [PC]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-10-11T15:17:17Z">11/10/2020</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/09/mario-kart-8-deluxe-switch/">Mario Kart 8 Deluxe [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-09-25T17:24:33Z">25/09/2020</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/08/sayonara-wild-hearts-switch/">Sayonara Wild Hearts [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-08-30T13:40:45Z">30/08/2020</time></div></span>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-platforms widget">
+	<h4 class="widget__title">Plates-formes</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/android/">Android</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/atari/jaguar/">Atari/Jaguar</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/flash/">Flash</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/microsoft/xbox-360/">Microsoft/XBOX 360</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/3ds/">Nintendo/3DS</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gb/">Nintendo/GB</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gba/">Nintendo/GBA</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/gbc/">Nintendo/GBC</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/nds/">Nintendo/NDS</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/nes/">Nintendo/NES</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/snes/">Nintendo/SNES</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/switch/">Nintendo/Switch</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wii/">Nintendo/Wii</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wii-u/">Nintendo/Wii U</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/nintendo/wiiware/">Nintendo/Wiiware</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/pc/">PC</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/pc-98/">PC-98</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/philips/cd-i/">Philips/CD-i</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sega/dreamcast/">Sega/Dreamcast</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps-vr/">Sony/PS VR</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps1/">Sony/PS1</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps2/">Sony/PS2</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps3/">Sony/PS3</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/ps4/">Sony/PS4</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/psp/">Sony/PSP</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/platforms/sony/vita/">Sony/Vita</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Catégories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action/">Action</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action-aventure/">Action-aventure</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/action-rpg/">Action-RPG</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/arcade/">Arcade</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/aventure/">Aventure</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/beatem-all/">Beat&#39;em all</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/course-arcade/">Course arcade</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/danmaku/">Danmaku</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/dessin-anime-interactif/">Dessin animé interactif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/developpement/">Développement</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/die-and-retry/">Die and retry</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/film-interactif/">Film interactif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/flipper/">Flipper</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/fps/">FPS</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/infiltration/">Infiltration</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ludo-educatif/">Ludo-éducatif</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ovni/">OVNI</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/plates-formes-2d/">Plates-formes 2D</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/plates-formes-3d/">Plates-formes 3D</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/pointn-click/">Point&#39;n click</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/puzzle-game/">Puzzle game</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rail-shooter/">Rail shooter</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/reflexion/">Réflexion</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rpg/">RPG</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rpg-au-tour-par-tour/">RPG au tour par tour</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/run-and-gun/">Run and gun</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/rythme/">Rythme</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/shoot-em-up-classique/">Shoot &#39;em up classique</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/survival-horror/">Survival horror</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/tps/">TPS</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/versus-fighting/">Versus fighting</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/visual-novel/">Visual novel</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/vr/">VR</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Mots-clefs</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/non-relu/" title="Non relu">Non relu (56)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/relu/" title="Relu">Relu (63)</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 7bits.
+			<span class="footer__copyright-credits">Produit par <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> et le thème <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a>.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/regsw.js"></script><script src="/js/dsqs.js"></script></body>
+</html>

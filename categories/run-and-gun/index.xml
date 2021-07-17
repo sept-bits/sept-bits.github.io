@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Run and gun on 7bits</title>
+    <link>https://7bits.fr/categories/run-and-gun/</link>
+    <description>Recent content in Run and gun on 7bits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 12 Jun 2013 04:01:19 +0000</lastBuildDate><atom:link href="https://7bits.fr/categories/run-and-gun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cave Story [PC]</title>
+      <link>https://7bits.fr/2013/06/cave-story-pc/</link>
+      <pubDate>Wed, 12 Jun 2013 04:01:19 +0000</pubDate>
+      
+      <guid>https://7bits.fr/2013/06/cave-story-pc/</guid>
+      <description>Cave Story est l&amp;rsquo;un des premiers jeux indépendants qui a vraiment su se faire connaître. Il a été créé par une seule personne, Pixel, un passionné de jeux rétro, qui a su réunir les meilleurs éléments de certains de ces jeux (Metroid, Metal Slug&amp;hellip;) dans Cave Story.</description>
+    </item>
+    
+  </channel>
+</rss>
