@@ -86,8 +86,15 @@ body {
 	display: block;
 }
 
+/* Separateur */
 
-/*submenu and subsubmenu*/
+.separator {
+	margin:auto;
+	width: 60%;
+	border-bottom: 3px solid #e22d30;
+}
+
+/*submenu et subsubmenu*/
 
 /*subsubmenu en barre latérale du submenu*/
 .subsubmenu__list {
@@ -100,24 +107,30 @@ width:100%;
 /* position:relative; */
 }
 
-/*Retirer le trait vertical en haut du subsubmenu*/
-.menu__list .menu__item .submenu__list {
-	border-top: none;	
-}
-
-/*Réduire la taille des sous-menus*/
-.menu__list .menu__item .submenu__list .menu__item {
-	padding: 5px 0;
-}
-
 .submenu__list .menu__link {
 	display: inline;
 }
 
-/* Separateur */
+.menu__list .menu__item .submenu__list .menu__item .subsubmenu__list .menu__item {
+	/* Désactiver le trait à gauche */
+	border:none;
+}
 
-.separator {
-	margin:auto;
-	width: 60%;
-	border-bottom: 3px solid #e22d30;
+/*Réduire la taille des sous-menus*/
+.menu__list .menu__item .submenu__list .menu__item {
+	padding: 4px 0;
+}
+
+/*Réduire la taille des sous-menus*/
+.menu__list .menu__item .submenu__list .menu__item .subsubmenu__list {
+	width:300px;
+	/*Retirer le trait vertical en haut du subsubmenu*/
+	border-top: none;	
+}
+
+/*Réduire la taille des sous-menus*/
+.menu__list .menu__item .submenu__list .menu__item .subsubmenu__list .menu__item {
+	padding: 2px 0;
+	width:100%;
+	/* max-width:300px; */
 }
