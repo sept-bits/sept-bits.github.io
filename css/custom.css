@@ -113,3 +113,11 @@ width:100%;
 .submenu__list .menu__link {
 	display: inline;
 }
+
+/* Separateur */
+
+.separator {
+	margin:auto;
+	width: 60%;
+	border-bottom: 3px solid #e22d30;
+}
