@@ -64,14 +64,14 @@ body {
 }
 
 
-.content .alignleft {
+.content .leftalign {
     float: left;
-    margin: 0 20px 10px 0;
+    margin: 0 15px 0 0;
 }
 
-.content .alignright {
+.content .rightalign {
     float: right;
-    margin: 0 0 10px 20px;
+    margin: 0 0 0 15px;
 }
 
 
