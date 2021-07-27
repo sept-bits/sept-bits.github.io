@@ -29,8 +29,21 @@
 
 /*Miniatures rognées au carré en mode desktop*/
 .list__thumbnail img {
+	width: 235px;
 	max-height: 235px;
 	object-fit: cover;
+}
+
+@media screen and (max-width: 620px) {
+	.list__thumbnail img {
+		width: 80px;
+		max-height: 80px;
+		object-fit: cover;
+	}
+	.meta__item {
+		display: inline;
+		margin-left: 15px;
+	}
 }
 
 /*Désactiver les bordures et le fond de page extérieur*/
