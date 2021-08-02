@@ -69,6 +69,10 @@ body {
 
 /*Dimensionnement des figures*/
 
+.content figure {
+	text-align:center;
+}
+
 .sidebyside {
 	display:inline;
 }
@@ -89,14 +93,16 @@ body {
 	max-width:49%;
 }
 
-/* .content figure {
-	margin:auto;
-	display:inline-block;
-}
-.content figure img {
-	margin:0;
-	display:block;
-} */
+
+
+/* .content figure { */
+	/* margin:auto; */
+	/* display:inline-block; */
+/* } */
+/* .content figure img { */
+	/* margin:0; */
+	/* display:block; */
+/* } */
 
 
 /*Spoiler*/
