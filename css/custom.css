@@ -74,11 +74,13 @@ body {
 }
 
 .sidebyside {
-	display:inline;
-}
-.sidebyside img {
+	display:inline-table;
 	width:49%;
 }
+
+/* .sidebyside img { */
+	/* width:49%; */
+/* } */
 
 
 .content .leftalign {
@@ -125,6 +127,8 @@ body {
 
 /*submenu et subsubmenu*/
 
+@media screen and (min-width: 767px) {
+
 /*subsubmenu en barre latérale du submenu*/
 .subsubmenu__list {
 /* margin-top:-22px; */
@@ -162,4 +166,5 @@ width:100%;
 	padding: 2px 0;
 	width:100%;
 	/* max-width:300px; */
+}
 }
