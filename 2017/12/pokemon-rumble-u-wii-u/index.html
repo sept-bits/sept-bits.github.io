@@ -21,8 +21,9 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 
 	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/custom.css">
 	<link rel="stylesheet" href="/css/menu.css">
+	<link rel="stylesheet" href="/css/custom.css">
+	
 
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="manifest" href="https://7bits.fr/site.webmanifest">
@@ -47,799 +48,1177 @@
 	</div>
 		
 <nav class="menu">
-	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
-		<span class="menu__btn-title" tabindex="-1">Menu</span>
-	</button>
-	<ul class="menu__list">
-		<li class="menu__item">
-			<a class="menu__link" href="/">
-				
-				<span class="menu__text">Accueil</span>
-				
-			</a>
-		</li>
-		<li class="menu__item">
-			<a class="menu__link" href="/dev/">
-				
-				<span class="menu__text">Développement</span>
-				
-			</a>
-		</li>
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/platforms/">
-				
-				<span class="menu__text">Supports</span>
-				<label class="drop-icon" for="Supports">▾</label>
-				
-			</a>
-			<input type="checkbox" id="Supports">
-			<ul class="submenu__list">
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/platforms/android/">
-				
-				<span class="menu__text">Android</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/platforms/atari/">
-				
-				<span class="menu__text">Atari</span>
-				<label class="drop-icon" for="Atari">▾</label>
-				
-			</a>
-			<input type="checkbox" id="Atari">
-			<ul class="submenu__list subsubmenu__list">
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/atari/jaguar/">
-						
-						<span class="menu__text">Jaguar</span>
-						
-					</a>
-					</li>
-				
-			</ul>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/platforms/flash/">
-				
-				<span class="menu__text">Flash</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/platforms/microsoft/">
-				
-				<span class="menu__text">Microsoft</span>
-				<label class="drop-icon" for="Microsoft">▾</label>
-				
-			</a>
-			<input type="checkbox" id="Microsoft">
-			<ul class="submenu__list subsubmenu__list">
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/microsoft/xbox-360/">
-						
-						<span class="menu__text">XBOX 360</span>
-						
-					</a>
-					</li>
-				
-			</ul>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/platforms/nec/">
-				
-				<span class="menu__text">NEC</span>
-				<label class="drop-icon" for="NEC">▾</label>
-				
-			</a>
-			<input type="checkbox" id="NEC">
-			<ul class="submenu__list subsubmenu__list">
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/nec/pc-98/">
-						
-						<span class="menu__text">PC-98</span>
-						
-					</a>
-					</li>
-				
-			</ul>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/platforms/nintendo/">
-				
-				<span class="menu__text">Nintendo</span>
-				<label class="drop-icon" for="Nintendo">▾</label>
-				
-			</a>
-			<input type="checkbox" id="Nintendo">
-			<ul class="submenu__list subsubmenu__list">
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/nintendo/switch/">
-						
-						<span class="menu__text">Switch</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/nintendo/wii-u/">
-						
-						<span class="menu__text">Wii U</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/nintendo/3ds/">
-						
-						<span class="menu__text">3DS</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/nintendo/wiiware/">
-						
-						<span class="menu__text">Wiiware</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/nintendo/wii/">
-						
-						<span class="menu__text">Wii</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/nintendo/nds/">
-						
-						<span class="menu__text">NDS</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/nintendo/gba/">
-						
-						<span class="menu__text">GBA</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/nintendo/snes/">
-						
-						<span class="menu__text">SNES</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/nintendo/gbc/">
-						
-						<span class="menu__text">GBC</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/nintendo/gb/">
-						
-						<span class="menu__text">GB</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/nintendo/nes/">
-						
-						<span class="menu__text">NES</span>
-						
-					</a>
-					</li>
-				
-			</ul>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/platforms/pc/">
-				
-				<span class="menu__text">PC</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/platforms/philips/">
-				
-				<span class="menu__text">Philips</span>
-				<label class="drop-icon" for="Philips">▾</label>
-				
-			</a>
-			<input type="checkbox" id="Philips">
-			<ul class="submenu__list subsubmenu__list">
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/philips/cd-i/">
-						
-						<span class="menu__text">CD-i</span>
-						
-					</a>
-					</li>
-				
-			</ul>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/platforms/sega/">
-				
-				<span class="menu__text">Sega</span>
-				<label class="drop-icon" for="Sega">▾</label>
-				
-			</a>
-			<input type="checkbox" id="Sega">
-			<ul class="submenu__list subsubmenu__list">
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/sega/dreamcast/">
-						
-						<span class="menu__text">Dreamcast</span>
-						
-					</a>
-					</li>
-				
-			</ul>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/platforms/sony/">
-				
-				<span class="menu__text">Sony</span>
-				<label class="drop-icon" for="Sony">▾</label>
-				
-			</a>
-			<input type="checkbox" id="Sony">
-			<ul class="submenu__list subsubmenu__list">
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/sony/ps1/">
-						
-						<span class="menu__text">PS1</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/sony/ps2/">
-						
-						<span class="menu__text">PS2</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/sony/ps3/">
-						
-						<span class="menu__text">PS3</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/sony/ps4/">
-						
-						<span class="menu__text">PS4</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/sony/ps-vr/">
-						
-						<span class="menu__text">PS VR</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/sony/psp/">
-						
-						<span class="menu__text">PSP</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/platforms/sony/vita/">
-						
-						<span class="menu__text">Vita</span>
-						
-					</a>
-					</li>
-				
-			</ul>
-		</li>
-		
-
-
-					
-				
-			</ul>
-		</li>
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/categories/">
-				
-				<span class="menu__text">Genres</span>
-				<label class="drop-icon" for="Genres">▾</label>
-				
-			</a>
-			<input type="checkbox" id="Genres">
-			<ul class="submenu__list">
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/action/">
-				
-				<span class="menu__text">Action</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/action-aventure/">
-				
-				<span class="menu__text">Action-aventure</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/arcade/">
-				
-				<span class="menu__text">Arcade</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/categories/aventure/">
-				
-				<span class="menu__text">Aventure</span>
-				<label class="drop-icon" for="Aventure">▾</label>
-				
-			</a>
-			<input type="checkbox" id="Aventure">
-			<ul class="submenu__list subsubmenu__list">
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/categories/point-n-click/">
-						
-						<span class="menu__text">Point&#39;n click</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/categories/visual-novel/">
-						
-						<span class="menu__text">Visual novel</span>
-						
-					</a>
-					</li>
-				
-			</ul>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/beat-em-all/">
-				
-				<span class="menu__text">Beat&#39;em all</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/course-arcade/">
-				
-				<span class="menu__text">Course arcade</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/die-and-retry/">
-				
-				<span class="menu__text">Die and retry</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/categories/film-interactif/">
-				
-				<span class="menu__text">Film interactif</span>
-				<label class="drop-icon" for="Film interactif">▾</label>
-				
-			</a>
-			<input type="checkbox" id="Film interactif">
-			<ul class="submenu__list subsubmenu__list">
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/categories/dessin-anime-interactif/">
-						
-						<span class="menu__text">Dessin animé interactif</span>
-						
-					</a>
-					</li>
-				
-			</ul>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/flipper/">
-				
-				<span class="menu__text">Flipper</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/infiltration/">
-				
-				<span class="menu__text">Infiltration</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/ludo-educatif/">
-				
-				<span class="menu__text">Ludo-éducatif</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/ovni/">
-				
-				<span class="menu__text">OVNI</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/categories/plates-formes/">
-				
-				<span class="menu__text">Plates-formes</span>
-				<label class="drop-icon" for="Plates-formes">▾</label>
-				
-			</a>
-			<input type="checkbox" id="Plates-formes">
-			<ul class="submenu__list subsubmenu__list">
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/categories/plates-formes-2d/">
-						
-						<span class="menu__text">Plates-formes 2D</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/categories/plates-formes-3d/">
-						
-						<span class="menu__text">Plates-formes 3D</span>
-						
-					</a>
-					</li>
-				
-			</ul>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/categories/jeu-de-tir/">
-				
-				<span class="menu__text">Jeu de tir</span>
-				<label class="drop-icon" for="Jeu de tir">▾</label>
-				
-			</a>
-			<input type="checkbox" id="Jeu de tir">
-			<ul class="submenu__list subsubmenu__list">
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/categories/fps/">
-						
-						<span class="menu__text">FPS</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/categories/tps/">
-						
-						<span class="menu__text">TPS</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/categories/rail-shooter/">
-						
-						<span class="menu__text">Rail shooter</span>
-						
-					</a>
-					</li>
-				
-			</ul>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/categories/reflexion/">
-				
-				<span class="menu__text">Réflexion</span>
-				<label class="drop-icon" for="Réflexion">▾</label>
-				
-			</a>
-			<input type="checkbox" id="Réflexion">
-			<ul class="submenu__list subsubmenu__list">
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/categories/puzzle-game/">
-						
-						<span class="menu__text">Puzzle game</span>
-						
-					</a>
-					</li>
-				
-			</ul>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/categories/rpg/">
-				
-				<span class="menu__text">RPG</span>
-				<label class="drop-icon" for="RPG">▾</label>
-				
-			</a>
-			<input type="checkbox" id="RPG">
-			<ul class="submenu__list subsubmenu__list">
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/categories/rpg-au-tour-par-tour/">
-						
-						<span class="menu__text">RPG au tour par tour</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/categories/action-rpg/">
-						
-						<span class="menu__text">Action-RPG</span>
-						
-					</a>
-					</li>
-				
-			</ul>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/run-and-gun/">
-				
-				<span class="menu__text">Run and gun</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/rythme/">
-				
-				<span class="menu__text">Rythme</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item menu__dropdown">
-			<a class="menu__link" href="/categories/shoot-em-up/">
-				
-				<span class="menu__text">Shoot&#39;em up</span>
-				<label class="drop-icon" for="Shoot&#39;em up">▾</label>
-				
-			</a>
-			<input type="checkbox" id="Shoot&#39;em up">
-			<ul class="submenu__list subsubmenu__list">
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/categories/shoot-em-up-classique/">
-						
-						<span class="menu__text">Shoot &#39;em up classique</span>
-						
-					</a>
-					</li>
-				
-					<li class="menu__item">
-					<a class="menu__link" href="/categories/danmaku/">
-						
-						<span class="menu__text">Danmaku</span>
-						
-					</a>
-					</li>
-				
-			</ul>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/survival-horror/">
-				
-				<span class="menu__text">Survival horror</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/versus-fighting/">
-				
-				<span class="menu__text">Versus fighting</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-		<li class="menu__item">
-			<a class="menu__link" href="/categories/vr/">
-				
-				<span class="menu__text">VR</span>
-				
-			</a>
-		</li>
-		
-
-
-					
-				
-			</ul>
-		</li>
-		<li class="menu__item">
-			<a class="menu__link" href="/pages/edito/">
-				
-				<span class="menu__text">Édito</span>
-				
-			</a>
-		</li>
-	</ul>
+<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+	<span class="menu__btn-title" tabindex="-1">Menu</span>
+</button>
+<ul class="menu__list">
+  
+  
+    
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/">
+			
+			<span class="menu__text">Accueil</span>
+			
+		</a>
+      </li>
+    
+  
+
+  
+    
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/dev/">
+			
+			<span class="menu__text">Développement</span>
+			
+		</a>
+      </li>
+    
+  
+
+  
+    
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/">
+			
+			<span class="menu__text">Supports</span>
+			<label class="drop-icon" for="Supports">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/android/">
+			
+			<span class="menu__text">Android</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/atari/">
+			
+			<span class="menu__text">Atari</span>
+			<label class="drop-icon" for="Atari">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/atari/jaguar/">
+			
+			<span class="menu__text">Jaguar</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/flash/">
+			
+			<span class="menu__text">Flash</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/microsoft/">
+			
+			<span class="menu__text">Microsoft</span>
+			<label class="drop-icon" for="Microsoft">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/microsoft/xbox-360/">
+			
+			<span class="menu__text">XBOX 360</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nec/">
+			
+			<span class="menu__text">NEC</span>
+			<label class="drop-icon" for="NEC">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nec/pc-98/">
+			
+			<span class="menu__text">PC-98</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nintendo/">
+			
+			<span class="menu__text">Nintendo</span>
+			<label class="drop-icon" for="Nintendo">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nintendo/switch/">
+			
+			<span class="menu__text">Switch</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nintendo/wii-u/">
+			
+			<span class="menu__text">Wii U</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nintendo/3ds/">
+			
+			<span class="menu__text">3DS</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nintendo/wiiware/">
+			
+			<span class="menu__text">Wiiware</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nintendo/wii/">
+			
+			<span class="menu__text">Wii</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nintendo/nds/">
+			
+			<span class="menu__text">NDS</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nintendo/gba/">
+			
+			<span class="menu__text">GBA</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nintendo/snes/">
+			
+			<span class="menu__text">SNES</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nintendo/gbc/">
+			
+			<span class="menu__text">GBC</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nintendo/gb/">
+			
+			<span class="menu__text">GB</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nintendo/nes/">
+			
+			<span class="menu__text">NES</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/pc/">
+			
+			<span class="menu__text">PC</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/philips/">
+			
+			<span class="menu__text">Philips</span>
+			<label class="drop-icon" for="Philips">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/philips/cd-i/">
+			
+			<span class="menu__text">CD-i</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/sega/">
+			
+			<span class="menu__text">Sega</span>
+			<label class="drop-icon" for="Sega">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/sega/dreamcast/">
+			
+			<span class="menu__text">Dreamcast</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/sony/">
+			
+			<span class="menu__text">Sony</span>
+			<label class="drop-icon" for="Sony">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/sony/ps1/">
+			
+			<span class="menu__text">PS1</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/sony/ps2/">
+			
+			<span class="menu__text">PS2</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/sony/ps3/">
+			
+			<span class="menu__text">PS3</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/sony/ps4/">
+			
+			<span class="menu__text">PS4</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/sony/ps-vr/">
+			
+			<span class="menu__text">PS VR</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/sony/psp/">
+			
+			<span class="menu__text">PSP</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/sony/vita/">
+			
+			<span class="menu__text">Vita</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+  
+    
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/">
+			
+			<span class="menu__text">Genres</span>
+			<label class="drop-icon" for="Genres">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/action/">
+			
+			<span class="menu__text">Action</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/action-aventure/">
+			
+			<span class="menu__text">Action-aventure</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/arcade/">
+			
+			<span class="menu__text">Arcade</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/aventure/">
+			
+			<span class="menu__text">Aventure</span>
+			<label class="drop-icon" for="Aventure">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/point-n-click/">
+			
+			<span class="menu__text">Point&#39;n click</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/visual-novel/">
+			
+			<span class="menu__text">Visual novel</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/beat-em-all/">
+			
+			<span class="menu__text">Beat&#39;em all</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/course-arcade/">
+			
+			<span class="menu__text">Course arcade</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/die-and-retry/">
+			
+			<span class="menu__text">Die and retry</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/film-interactif/">
+			
+			<span class="menu__text">Film interactif</span>
+			<label class="drop-icon" for="Film interactif">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/dessin-anime-interactif/">
+			
+			<span class="menu__text">Dessin animé interactif</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/flipper/">
+			
+			<span class="menu__text">Flipper</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/infiltration/">
+			
+			<span class="menu__text">Infiltration</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/ludo-educatif/">
+			
+			<span class="menu__text">Ludo-éducatif</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/ovni/">
+			
+			<span class="menu__text">OVNI</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/plates-formes/">
+			
+			<span class="menu__text">Plates-formes</span>
+			<label class="drop-icon" for="Plates-formes">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/plates-formes-2d/">
+			
+			<span class="menu__text">Plates-formes 2D</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/plates-formes-3d/">
+			
+			<span class="menu__text">Plates-formes 3D</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/jeu-de-tir/">
+			
+			<span class="menu__text">Jeu de tir</span>
+			<label class="drop-icon" for="Jeu de tir">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/fps/">
+			
+			<span class="menu__text">FPS</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/tps/">
+			
+			<span class="menu__text">TPS</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/rail-shooter/">
+			
+			<span class="menu__text">Rail shooter</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/reflexion/">
+			
+			<span class="menu__text">Réflexion</span>
+			<label class="drop-icon" for="Réflexion">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/puzzle-game/">
+			
+			<span class="menu__text">Puzzle game</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/rpg/">
+			
+			<span class="menu__text">RPG</span>
+			<label class="drop-icon" for="RPG">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/rpg-au-tour-par-tour/">
+			
+			<span class="menu__text">RPG au tour par tour</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/action-rpg/">
+			
+			<span class="menu__text">Action-RPG</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/run-and-gun/">
+			
+			<span class="menu__text">Run and gun</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/rythme/">
+			
+			<span class="menu__text">Rythme</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/shoot-em-up/">
+			
+			<span class="menu__text">Shoot&#39;em up</span>
+			<label class="drop-icon" for="Shoot&#39;em up">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/shoot-em-up-classique/">
+			
+			<span class="menu__text">Shoot &#39;em up classique</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/danmaku/">
+			
+			<span class="menu__text">Danmaku</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/survival-horror/">
+			
+			<span class="menu__text">Survival horror</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/versus-fighting/">
+			
+			<span class="menu__text">Versus fighting</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/categories/vr/">
+			
+			<span class="menu__text">VR</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+  
+    
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/pages/edito/">
+			
+			<span class="menu__text">Édito</span>
+			
+		</a>
+      </li>
+    
+  
+
+  
+</ul>
 </nav>
+
+
+
+
 
 	</div>
 </header>
@@ -986,10 +1365,10 @@ Date de sortie : 2013
 	<h4 class="widget__title">Articles récents</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/2021/11/senran-kagura-peach-ball-switch-test-2/">Senran Kagura Peach Ball [Switch] - TEST 2</a>
+			<li class="widget__item"><a class="widget__link" href="/2021/07/lust-for-darkness-pc/">Lust for Darkness [PC]</a>
 				<span style="white-space:nowrap">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-11-05T16:30:00&#43;02:00">05/11/2021</time></div></span>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-18T00:00:00Z">18/07/2021</time></div></span>
 			</li>
 			<li class="widget__item"><a class="widget__link" href="/2021/06/senran-kagura-peach-ball-switch/">Senran Kagura Peach Ball [Switch]</a>
 				<span style="white-space:nowrap">

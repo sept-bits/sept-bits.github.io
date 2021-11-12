@@ -130,7 +130,7 @@ body {
 @media screen and (min-width: 767px) {
 
 /*subsubmenu en barre latérale du submenu*/
-.subsubmenu__list {
+.submenu__list .submenu__list{
 /* margin-top:-22px; */
 bottom:0;
 top:0;
@@ -144,7 +144,7 @@ width:100%;
 	display: inline;
 }
 
-.menu__list .menu__item .submenu__list .menu__item .subsubmenu__list .menu__item {
+.menu__list .menu__item .submenu__list .menu__item .submenu__list .menu__item {
 	/* Désactiver le trait à gauche */
 	border:none;
 }
@@ -155,14 +155,14 @@ width:100%;
 }
 
 /*Réduire la taille des sous-menus*/
-.menu__list .menu__item .submenu__list .menu__item .subsubmenu__list {
+.menu__list .menu__item .submenu__list .menu__item .submenu__list {
 	width:300px;
 	/*Retirer le trait vertical en haut du subsubmenu*/
 	border-top: none;	
 }
 
 /*Réduire la taille des sous-menus*/
-.menu__list .menu__item .submenu__list .menu__item .subsubmenu__list .menu__item {
+.menu__list .menu__item .submenu__list .menu__item .submenu__list .menu__item {
 	padding: 2px 0;
 	width:100%;
 	/* max-width:300px; */

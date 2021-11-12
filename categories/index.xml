@@ -6,11 +6,20 @@
     <description>Recent content in Categories on 7bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 05 Nov 2021 16:30:00 +0200</lastBuildDate><atom:link href="https://7bits.fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://7bits.fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aventure</title>
+      <link>https://7bits.fr/categories/aventure/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://7bits.fr/categories/aventure/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Flipper</title>
       <link>https://7bits.fr/categories/flipper/</link>
-      <pubDate>Fri, 05 Nov 2021 16:30:00 +0200</pubDate>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://7bits.fr/categories/flipper/</guid>
       <description></description>
@@ -157,15 +166,6 @@
       <pubDate>Sun, 09 Dec 2018 19:03:23 +0000</pubDate>
       
       <guid>https://7bits.fr/categories/rpg-au-tour-par-tour/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aventure</title>
-      <link>https://7bits.fr/categories/aventure/</link>
-      <pubDate>Fri, 12 Oct 2018 15:12:20 +0000</pubDate>
-      
-      <guid>https://7bits.fr/categories/aventure/</guid>
       <description></description>
     </item>
     
