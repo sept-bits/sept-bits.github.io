@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>NDS - 7bits</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="NDS" />
+<meta property="og:description" content="Blog consacré au développement et aux tests de jeux vidéo" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://7bits.fr/platforms/nds/" /><meta property="og:image" content="https://7bits.fr/img/logo.png"/>
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/menu.css">
+	<link rel="stylesheet" href="/css/custom.css">
+	
+	<link rel="alternate" type="application/rss+xml" href="/platforms/nds/index.xml" title="7bits">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="manifest" href="https://7bits.fr/site.webmanifest">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="7bits" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo.svg">
+				</div>
+				
+					
+					
+				
+			
+		</a>
+	</div>
+		
+<nav class="menu">
+<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+	<span class="menu__btn-title" tabindex="-1">Menu</span>
+</button>
+<ul class="menu__list">
+  
+  
+    
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/">
+			
+			<span class="menu__text">Accueil</span>
+			
+		</a>
+      </li>
+    
+  
+
+  
+    
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/dev/">
+			
+			<span class="menu__text">Développement</span>
+			
+		</a>
+      </li>
+    
+  
+
+  
+    
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/">
+			
+			<span class="menu__text">Supports</span>
+			<label class="drop-icon" for="Supports">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/android/">
+			
+			<span class="menu__text">Android</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/atari/">
+			
+			<span class="menu__text">Atari</span>
+			<label class="drop-icon" for="Atari">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/jaguar/">
+			
+			<span class="menu__text">Jaguar</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/flash/">
+			
+			<span class="menu__text">Flash</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/microsoft/">
+			
+			<span class="menu__text">Microsoft</span>
+			<label class="drop-icon" for="Microsoft">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/xbox-360/">
+			
+			<span class="menu__text">XBOX 360</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nec/">
+			
+			<span class="menu__text">NEC</span>
+			<label class="drop-icon" for="NEC">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/pc-98/">
+			
+			<span class="menu__text">PC-98</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nintendo/">
+			
+			<span class="menu__text">Nintendo</span>
+			<label class="drop-icon" for="Nintendo">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/switch/">
+			
+			<span class="menu__text">Switch</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/wii-u/">
+			
+			<span class="menu__text">Wii U</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/3ds/">
+			
+			<span class="menu__text">3DS</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/wiiware/">
+			
+			<span class="menu__text">Wiiware</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/wii/">
+			
+			<span class="menu__text">Wii</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nds/">
+			
+			<span class="menu__text">NDS</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/gba/">
+			
+			<span class="menu__text">GBA</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/snes/">
+			
+			<span class="menu__text">SNES</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/gbc/">
+			
+			<span class="menu__text">GBC</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/gb/">
+			
+			<span class="menu__text">GB</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/nes/">
+			
+			<span class="menu__text">NES</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/pc/">
+			
+			<span class="menu__text">PC</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/philips/">
+			
+			<span class="menu__text">Philips</span>
+			<label class="drop-icon" for="Philips">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/cd-i/">
+			
+			<span class="menu__text">CD-i</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/sega/">
+			
+			<span class="menu__text">Sega</span>
+			<label class="drop-icon" for="Sega">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/dreamcast/">
+			
+			<span class="menu__text">Dreamcast</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/sony/">
+			
+			<span class="menu__text">Sony</span>
+			<label class="drop-icon" for="Sony">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/ps1/">
+			
+			<span class="menu__text">PS1</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/ps2/">
+			
+			<span class="menu__text">PS2</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/ps3/">
+			
+			<span class="menu__text">PS3</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/ps4/">
+			
+			<span class="menu__text">PS4</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/ps-vr/">
+			
+			<span class="menu__text">PS VR</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/psp/">
+			
+			<span class="menu__text">PSP</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/platforms/vita/">
+			
+			<span class="menu__text">Vita</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+  
+    
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/">
+			
+			<span class="menu__text">Genres</span>
+			<label class="drop-icon" for="Genres">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/action/">
+			
+			<span class="menu__text">Action</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/action-aventure/">
+			
+			<span class="menu__text">Action-aventure</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/arcade/">
+			
+			<span class="menu__text">Arcade</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/aventure/">
+			
+			<span class="menu__text">Aventure</span>
+			<label class="drop-icon" for="Aventure">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/point-n-click/">
+			
+			<span class="menu__text">Point n click</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/visual-novel/">
+			
+			<span class="menu__text">Visual novel</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/beat-em-all/">
+			
+			<span class="menu__text">Beat&#39;em all</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/course-arcade/">
+			
+			<span class="menu__text">Course arcade</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/die-and-retry/">
+			
+			<span class="menu__text">Die and retry</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/film-interactif/">
+			
+			<span class="menu__text">Film interactif</span>
+			<label class="drop-icon" for="Film interactif">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/dessin-anime-interactif/">
+			
+			<span class="menu__text">Dessin animé interactif</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/flipper/">
+			
+			<span class="menu__text">Flipper</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/infiltration/">
+			
+			<span class="menu__text">Infiltration</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/ludo-educatif/">
+			
+			<span class="menu__text">Ludo-éducatif</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/ovni/">
+			
+			<span class="menu__text">OVNI</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/plates-formes/">
+			
+			<span class="menu__text">Plates-formes</span>
+			<label class="drop-icon" for="Plates-formes">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/plates-formes-2d/">
+			
+			<span class="menu__text">Plates-formes 2D</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/plates-formes-3d/">
+			
+			<span class="menu__text">Plates-formes 3D</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/jeu-de-tir/">
+			
+			<span class="menu__text">Jeu de tir</span>
+			<label class="drop-icon" for="Jeu de tir">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/fps/">
+			
+			<span class="menu__text">FPS</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/tps/">
+			
+			<span class="menu__text">TPS</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/rail-shooter/">
+			
+			<span class="menu__text">Rail shooter</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/reflexion/">
+			
+			<span class="menu__text">Réflexion</span>
+			<label class="drop-icon" for="Réflexion">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/puzzle-game/">
+			
+			<span class="menu__text">Puzzle game</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/rpg/">
+			
+			<span class="menu__text">RPG</span>
+			<label class="drop-icon" for="RPG">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/rpg-au-tour-par-tour/">
+			
+			<span class="menu__text">RPG au tour par tour</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/action-rpg/">
+			
+			<span class="menu__text">Action-RPG</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/run-and-gun/">
+			
+			<span class="menu__text">Run and gun</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/rythme/">
+			
+			<span class="menu__text">Rythme</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/shoot-em-up/">
+			
+			<span class="menu__text">Shoot&#39;em up</span>
+			<label class="drop-icon" for="Shoot&#39;em up">▾</label>
+			
+		</a>
+        <ul class="submenu__list">
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/shoot-em-up-classique/">
+			
+			<span class="menu__text">Shoot &#39;em up classique</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/danmaku/">
+			
+			<span class="menu__text">Danmaku</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/survival-horror/">
+			
+			<span class="menu__text">Survival horror</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/versus-fighting/">
+			
+			<span class="menu__text">Versus fighting</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+            
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/genres/vr/">
+			
+			<span class="menu__text">VR</span>
+			
+		</a>
+      </li>
+    
+  
+
+          
+        </ul>
+      </li>
+    
+  
+
+  
+    
+  
+  
+    
+      <li class="menu__item menu__dropdown">
+        <a class="menu__link" href="/pages/edito/">
+			
+			<span class="menu__text">Édito</span>
+			
+		</a>
+      </li>
+    
+  
+
+  
+</ul>
+</nav>
+
+
+
+
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main list" role="main">
+	<header class="main__header">
+		<h1 class="main__title">NDS</h1>
+	</header><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/2019/04/ace-attorney-investigations-miles-edgeworth-nds/" rel="bookmark">
+			Ace Attorney Investigations Miles Edgeworth [NDS]
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2019-04-07T14:48:48Z">07/04/2019</time></div><div class="meta__item-genres meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/genres/aventure/" rel="genre">Aventure</a>, <a class="meta__link" href="/genres/visual-novel/" rel="genre">Visual novel</a>
+	</span>
+</div><div class="meta__item-tags meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/non-relu/" rel="tag">Non relu</a>
+	</span>
+</div></div>
+	</header>
+	<figure class="list__thumbnail">
+		<a href="/2019/04/ace-attorney-investigations-miles-edgeworth-nds/">
+		
+			<img src="https://7bits.fr/2019/04/ace-attorney-investigations-miles-edgeworth-nds/cover.jpg" alt="Ace Attorney Investigations Miles Edgeworth [NDS]" />
+		
+		</a>
+	</figure>
+	<div class="content list__excerpt post__content clearfix">
+		Ace Attorney Investigations est le premier spin-off de la série Ace Attorney. Il est sorti après Apollo Justice et compte donc des petites références aux 4 premiers opus mais l’histoire se déroule juste après celle du 3. Le protagoniste est cette fois-ci Benjamin Hunter (Miles Edgeworth en anglais), le charismatique procureur et adversaire éternel de Phoenix Wright.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/2019/02/mario-vs.-donkey-kong-pagaille-a-mini-land-nds/" rel="bookmark">
+			Mario vs. Donkey Kong Pagaille à Mini-Land ! [NDS]
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2019-02-10T19:51:24Z">10/02/2019</time></div><div class="meta__item-genres meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/genres/action/" rel="genre">Action</a>, <a class="meta__link" href="/genres/reflexion/" rel="genre">Réflexion</a>, <a class="meta__link" href="/genres/puzzle-game/" rel="genre">Puzzle game</a>
+	</span>
+</div><div class="meta__item-tags meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/non-relu/" rel="tag">Non relu</a>
+	</span>
+</div></div>
+	</header>
+	<figure class="list__thumbnail">
+		<a href="/2019/02/mario-vs.-donkey-kong-pagaille-a-mini-land-nds/">
+		
+			<img src="https://7bits.fr/2019/02/mario-vs.-donkey-kong-pagaille-a-mini-land-nds/cover.jpg" alt="Mario vs. Donkey Kong Pagaille à Mini-Land ! [NDS]" />
+		
+		</a>
+	</figure>
+	<div class="content list__excerpt post__content clearfix">
+		Pagaille à Mini-Land est le quatrième épisode de la série d&rsquo;action réflexion Mario vs. Donkey Kong (et le cinquième si on compte Donkey Kong sur Game Boy). Je vous avais déjà fait des tests de Donkey Kong Game Boy ainsi que de Mario vs.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/2018/09/from-the-abyss-nds/" rel="bookmark">
+			From the Abyss [NDS]
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2018-09-07T18:01:10Z">07/09/2018</time></div><div class="meta__item-genres meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/genres/rpg/" rel="genre">RPG</a>, <a class="meta__link" href="/genres/action-rpg/" rel="genre">Action-RPG</a>
+	</span>
+</div><div class="meta__item-tags meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/relu/" rel="tag">Relu</a>
+	</span>
+</div></div>
+	</header>
+	<figure class="list__thumbnail">
+		<a href="/2018/09/from-the-abyss-nds/">
+		
+			<img src="https://7bits.fr/2018/09/from-the-abyss-nds/cover.jpg" alt="From the Abyss [NDS]" />
+		
+		</a>
+	</figure>
+	<div class="content list__excerpt post__content clearfix">
+		From the Abyss est un action RPG développé par Sonic Powered sur DS. Vous n&rsquo;en avez jamais entendu parler ? C&rsquo;est normal, moi non plus jusqu&rsquo;à il y a quelques jours et honnêtement c&rsquo;est pas une grosse perte.
+Vous commencez le jeu par la création de votre personnage et un quiz qui va vous donner des stats en fonction de votre personnalité.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/2018/05/trauma-center-under-the-knife-nds/" rel="bookmark">
+			Trauma Center Under the Knife [NDS]
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2018-05-07T10:54:48Z">07/05/2018</time></div><div class="meta__item-genres meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/genres/aventure/" rel="genre">Aventure</a>, <a class="meta__link" href="/genres/visual-novel/" rel="genre">Visual novel</a>, <a class="meta__link" href="/genres/ovni/" rel="genre">OVNI</a>
+	</span>
+</div><div class="meta__item-tags meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/relu/" rel="tag">Relu</a>
+	</span>
+</div></div>
+	</header>
+	<figure class="list__thumbnail">
+		<a href="/2018/05/trauma-center-under-the-knife-nds/">
+		
+			<img src="https://7bits.fr/2018/05/trauma-center-under-the-knife-nds/cover.jpg" alt="Trauma Center Under the Knife [NDS]" />
+		
+		</a>
+	</figure>
+	<div class="content list__excerpt post__content clearfix">
+		En 2001, Phoenix Wright Ace Attorney sortait au pays du soleil levant en se présentant comme étant une simulation d&rsquo;avocat. Vu comme ça, cela paraît très chiant mais le jeu proposait une excellente narration et prenait extrêmement de liberté par rapport à la profession pour garantir un plaisir maximal de jeu.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/2014/02/professeur-layton-et-lappel-du-spectre-nds/" rel="bookmark">
+			Professeur Layton et l&#39;Appel du Spectre [NDS]
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2014-02-24T07:51:31Z">24/02/2014</time></div><div class="meta__item-genres meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/genres/aventure/" rel="genre">Aventure</a>, <a class="meta__link" href="/genres/reflexion/" rel="genre">Réflexion</a>
+	</span>
+</div><div class="meta__item-tags meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/relu/" rel="tag">Relu</a>
+	</span>
+</div></div>
+	</header>
+	<figure class="list__thumbnail">
+		<a href="/2014/02/professeur-layton-et-lappel-du-spectre-nds/">
+		
+			<img src="https://7bits.fr/2014/02/professeur-layton-et-lappel-du-spectre-nds/cover.jpg" alt="Professeur Layton et l&#39;Appel du Spectre [NDS]" />
+		
+		</a>
+	</figure>
+	<div class="content list__excerpt post__content clearfix">
+		Après avoir contribué au renouveau du jeu d&rsquo;aventure et signé un des meilleurs jeux du genre sur le support, Level 5 nous dessert un quatrième épisode pour sa série de jeux à énigmes : Professeur Layton. Cet opus marque un tournant dans la saga puisque la trame s&rsquo;y déroule plusieurs années avant celle des autres épisodes.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/2014/01/professeur-layton-et-le-destin-perdu-nds/" rel="bookmark">
+			Professeur Layton et le Destin perdu [NDS]
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2014-01-28T07:45:44Z">28/01/2014</time></div><div class="meta__item-genres meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/genres/aventure/" rel="genre">Aventure</a>, <a class="meta__link" href="/genres/reflexion/" rel="genre">Réflexion</a>
+	</span>
+</div><div class="meta__item-tags meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/relu/" rel="tag">Relu</a>
+	</span>
+</div></div>
+	</header>
+	<figure class="list__thumbnail">
+		<a href="/2014/01/professeur-layton-et-le-destin-perdu-nds/">
+		
+			<img src="https://7bits.fr/2014/01/professeur-layton-et-le-destin-perdu-nds/cover.jpg" alt="Professeur Layton et le Destin perdu [NDS]" />
+		
+		</a>
+	</figure>
+	<div class="content list__excerpt post__content clearfix">
+		Fort d&rsquo;une des licences vidéoludiques les plus juteuses de notre temps, Level-5 nous propose un troisième épisode pour sa série de jeux d&rsquo;aventure et de réflexion Professeur Layton. Après un second opus qui n&rsquo;était pas exactement la suite que l&rsquo;on aurait pu attendre, il est légitime de se demander ce que vaut Le Destin perdu.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/2014/01/professeur-layton-et-la-boite-de-pandore-nds/" rel="bookmark">
+			Professeur Layton et la Boîte de Pandore [NDS]
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2014-01-03T07:38:12Z">03/01/2014</time></div><div class="meta__item-genres meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/genres/aventure/" rel="genre">Aventure</a>, <a class="meta__link" href="/genres/reflexion/" rel="genre">Réflexion</a>
+	</span>
+</div><div class="meta__item-tags meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/images-a-formater/" rel="tag">Images à formater</a>, <a class="meta__link" href="/tags/relu/" rel="tag">Relu</a>
+	</span>
+</div></div>
+	</header>
+	<figure class="list__thumbnail">
+		<a href="/2014/01/professeur-layton-et-la-boite-de-pandore-nds/">
+		
+			<img src="https://7bits.fr/2014/01/professeur-layton-et-la-boite-de-pandore-nds/cover.jpg" alt="Professeur Layton et la Boîte de Pandore [NDS]" />
+		
+		</a>
+	</figure>
+	<div class="content list__excerpt post__content clearfix">
+		Qui ne connaît pas le professeur Layton ? En six ans la série dont il provient se sera classée parmi les jeux d&rsquo;aventure les plus vendus de la DS et il est probable que si vous demandiez à vos grands-parents de citer des héros de jeux vidéo, le professeur d&rsquo;archéologie anglais au haut-de-forme soit une des premières réponses citées.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/2013/06/pokemon-version-diamant-nds/" rel="bookmark">
+			Pokémon Version Diamant [NDS]
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2013-06-19T06:23:30Z">19/06/2013</time></div><div class="meta__item-genres meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/genres/rpg/" rel="genre">RPG</a>, <a class="meta__link" href="/genres/rpg-au-tour-par-tour/" rel="genre">RPG au tour par tour</a>
+	</span>
+</div><div class="meta__item-tags meta__item"><svg class="meta__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/images-a-formater/" rel="tag">Images à formater</a>, <a class="meta__link" href="/tags/non-relu/" rel="tag">Non relu</a>
+	</span>
+</div></div>
+	</header>
+	<figure class="list__thumbnail">
+		<a href="/2013/06/pokemon-version-diamant-nds/">
+		
+			<img src="https://7bits.fr/2013/06/pokemon-version-diamant-nds/cover.jpg" alt="Pokémon Version Diamant [NDS]" />
+		
+		</a>
+	</figure>
+	<div class="content list__excerpt post__content clearfix">
+		Un article un peu spécial sur la 4ème génération de Pokémon, comportant une préface sur l&rsquo;évolution de la série à travers les anciennes versions de Pokémon qui me semble nécessaire pour bien comprendre la situation lors de la venue du jeu.
+	</div>
+</article>
+</main>
+
+
+			</div>
+			
+<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="Rechercher…" value="" name="q" aria-label="Rechercher…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://7bits.fr/" />
+	</form>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Flux RSS" rel="noopener noreferrer" href="/articles/index.xml" target="_blank">
+					<svg class="widget-social__link-icon icon" width="24" height="24" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM112 416c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm157.533 0h-34.335c-6.011 0-11.051-4.636-11.442-10.634-5.214-80.05-69.243-143.92-149.123-149.123-5.997-.39-10.633-5.431-10.633-11.441v-34.335c0-6.535 5.468-11.777 11.994-11.425 110.546 5.974 198.997 94.536 204.964 204.964.352 6.526-4.89 11.994-11.425 11.994zm103.027 0h-34.334c-6.161 0-11.175-4.882-11.427-11.038-5.598-136.535-115.204-246.161-251.76-251.76C68.882 152.949 64 147.935 64 141.774V107.44c0-6.454 5.338-11.664 11.787-11.432 167.83 6.025 302.21 141.191 308.205 308.205.232 6.449-4.978 11.787-11.432 11.787z"></path></svg>
+				<span>Flux RSS</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="WordPress" rel="noopener noreferrer" href="https://7bits.nomistation.fr/" target="_blank">
+				<span>WordPress</span>
+			</a>
+		</div>
+		
+	</div>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Articles récents</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2021/07/lust-for-darkness-pc/">Lust for Darkness [PC]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-18T00:00:00Z">18/07/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2021/06/senran-kagura-peach-ball-switch/">Senran Kagura Peach Ball [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-06-27T00:00:00Z">27/06/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2021/01/super-smash-bros.-ultimate-switch/">Super Smash Bros. Ultimate [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-01-19T21:04:14Z">19/01/2021</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/10/rayman-origins-pc/">Rayman Origins [PC]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-10-11T15:17:17Z">11/10/2020</time></div></span>
+			</li>
+			<li class="widget__item"><a class="widget__link" href="/2020/09/mario-kart-8-deluxe-switch/">Mario Kart 8 Deluxe [Switch]</a>
+				<span style="white-space:nowrap">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-09-25T17:24:33Z">25/09/2020</time></div></span>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Mots-clefs</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/images-a-formater/" title="Images à formater">Images à formater (11)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/non-relu/" title="Non relu">Non relu (57)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/relu/" title="Relu">Relu (63)</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2022 7bits.
+			<span class="footer__copyright-credits">Produit par <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> et le thème <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a>.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/regsw.js"></script><script src="/js/dsqs.js"></script></body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Die and retry on 7bits</title>
+    <link>https://7bits.fr/genres/die-and-retry/</link>
+    <description>Recent content in Die and retry on 7bits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 12 Mar 2019 15:23:40 +0000</lastBuildDate><atom:link href="https://7bits.fr/genres/die-and-retry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dragon&#39;s Lair [CD-i]</title>
+      <link>https://7bits.fr/2019/03/dragons-lair-cd-i/</link>
+      <pubDate>Tue, 12 Mar 2019 15:23:40 +0000</pubDate>
+      
+      <guid>https://7bits.fr/2019/03/dragons-lair-cd-i/</guid>
+      <description>Nous sommes en 1983, au milieu des graphismes primitifs des Pac-Man, Donkey Kong et autres Space Invaders se tient une borne d&amp;rsquo;arcade semblant tenir la promesse de nous faire jouer à un véritable dessin animé de haute qualité. Le jeu que contient cette borne se nomme Dragon&amp;rsquo;s Lair, très original pour l&amp;rsquo;époque, il s&amp;rsquo;agit du premier dessin animé interactif, genre qui donnera plus tard les fameux films interactifs et jeux FMV.</description>
+    </item>
+    
+    <item>
+      <title>Tower of Heaven [Flash]</title>
+      <link>https://7bits.fr/2013/07/tower-of-heaven-flash/</link>
+      <pubDate>Wed, 24 Jul 2013 19:06:11 +0000</pubDate>
+      
+      <guid>https://7bits.fr/2013/07/tower-of-heaven-flash/</guid>
+      <description>Vous avez trente minutes à tuer ? Que diriez-vous de vous faire un platformer rétro de type die and retry où l&amp;rsquo;avancée des niveaux serait rendue plus pénible par une divinité changeant les règles de jeu ? Bien, c&amp;rsquo;est par ici que ça se passe.</description>
+    </item>
+    
+  </channel>
+</rss>
