@@ -6,13 +6,67 @@
     <description>Recent content in Genres on 7bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://7bits.fr/genres/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://7bits.fr/genres/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Action-aventure</title>
+      <link>https://7bits.fr/genres/action-aventure/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://7bits.fr/genres/action-aventure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OVNI</title>
+      <link>https://7bits.fr/genres/ovni/</link>
+      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://7bits.fr/genres/ovni/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dessin animé interactif</title>
+      <link>https://7bits.fr/genres/dessin-anime-interactif/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://7bits.fr/genres/dessin-anime-interactif/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Film interactif</title>
+      <link>https://7bits.fr/genres/film-interactif/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://7bits.fr/genres/film-interactif/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Course arcade</title>
+      <link>https://7bits.fr/genres/course-arcade/</link>
+      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://7bits.fr/genres/course-arcade/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Aventure</title>
       <link>https://7bits.fr/genres/aventure/</link>
-      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://7bits.fr/genres/aventure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survival horror</title>
+      <link>https://7bits.fr/genres/survival-horror/</link>
+      <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://7bits.fr/genres/survival-horror/</guid>
       <description></description>
     </item>
     
@@ -53,24 +107,6 @@
     </item>
     
     <item>
-      <title>Course arcade</title>
-      <link>https://7bits.fr/genres/course-arcade/</link>
-      <pubDate>Fri, 25 Sep 2020 17:24:33 +0000</pubDate>
-      
-      <guid>https://7bits.fr/genres/course-arcade/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OVNI</title>
-      <link>https://7bits.fr/genres/ovni/</link>
-      <pubDate>Sun, 30 Aug 2020 13:40:45 +0000</pubDate>
-      
-      <guid>https://7bits.fr/genres/ovni/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Beat&#39;em all</title>
       <link>https://7bits.fr/genres/beatem-all/</link>
       <pubDate>Sun, 23 Aug 2020 16:22:31 +0000</pubDate>
@@ -85,15 +121,6 @@
       <pubDate>Tue, 11 Aug 2020 18:25:38 +0000</pubDate>
       
       <guid>https://7bits.fr/genres/plates-formes-3d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Action-aventure</title>
-      <link>https://7bits.fr/genres/action-aventure/</link>
-      <pubDate>Sun, 09 Jun 2019 00:52:34 +0000</pubDate>
-      
-      <guid>https://7bits.fr/genres/action-aventure/</guid>
       <description></description>
     </item>
     
@@ -125,29 +152,11 @@
     </item>
     
     <item>
-      <title>Dessin animé interactif</title>
-      <link>https://7bits.fr/genres/dessin-anime-interactif/</link>
-      <pubDate>Tue, 12 Mar 2019 15:23:40 +0000</pubDate>
-      
-      <guid>https://7bits.fr/genres/dessin-anime-interactif/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Die and retry</title>
       <link>https://7bits.fr/genres/die-and-retry/</link>
       <pubDate>Tue, 12 Mar 2019 15:23:40 +0000</pubDate>
       
       <guid>https://7bits.fr/genres/die-and-retry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Film interactif</title>
-      <link>https://7bits.fr/genres/film-interactif/</link>
-      <pubDate>Tue, 12 Mar 2019 15:23:40 +0000</pubDate>
-      
-      <guid>https://7bits.fr/genres/film-interactif/</guid>
       <description></description>
     </item>
     
@@ -229,15 +238,6 @@
       <pubDate>Tue, 09 Jan 2018 00:00:25 +0000</pubDate>
       
       <guid>https://7bits.fr/genres/fps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Survival horror</title>
-      <link>https://7bits.fr/genres/survival-horror/</link>
-      <pubDate>Mon, 06 Nov 2017 23:02:33 +0000</pubDate>
-      
-      <guid>https://7bits.fr/genres/survival-horror/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>N64 on 7bits</title>
+    <link>https://7bits.fr/platforms/n64/</link>
+    <description>Recent content in N64 on 7bits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 05 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://7bits.fr/platforms/n64/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diddy Kong Racing [N64]</title>
+      <link>https://7bits.fr/2021/09/diddy-kong-racing-n64/</link>
+      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://7bits.fr/2021/09/diddy-kong-racing-n64/</guid>
+      <description>Diddy Kong Racing est un Mario Kart-like sortit quand Rare faisait les beaux jours de la N64.
+Comme le fera plus tard Crash Team Racing, DKR a un mode aventure et donc une histoire: un alien sème la pagaille sur l&amp;rsquo;île de Timber et Diddy est invité pour le battre.</description>
+    </item>
+    
+  </channel>
+</rss>
