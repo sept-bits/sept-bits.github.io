@@ -163,7 +163,7 @@ width:100%;
 
 /*Réduire la taille des sous-menus*/
 .menu__list .menu__item .submenu__list .menu__item .submenu__list .menu__item {
-	padding: 2px 0;
+	padding: 1px 0;
 	width:100%;
 	/* max-width:300px; */
 }
